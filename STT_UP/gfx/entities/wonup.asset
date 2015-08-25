@@ -444,6 +444,95 @@ entity = {
 }
 
 entity = {
+	name = "GEN_INFANTRY_2"
+	pdxmesh = "wonup_GEN_infantry_02_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { 
+		Left_hand_node = "wonup_rifle_02_entity" 
+	}
+}
+
+entity = {
+	name = "wonup_GEN_cavalry_02_entity"
+	pdxmesh = "wonup_GEN_cavalry_02_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { 
+		name = "rider_weapon"
+		Right_hand_node = "wonup_saber_entity" 
+	}
+}
+
+entity = {
+	name = "GEN_CAVALRY_2"
+	pdxmesh = "wonup_cavalry_horse_01_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "wonup_GEN_cavalry_02_entity" 
+	}
+}
+
+
+entity = {
+	name = "GEN_INFANTRY_3"
+	pdxmesh = "wonup_GEN_infantry_03_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { 
+		Left_hand_node = "wonup_rifle_03_entity" 
+	}
+}
+
+entity = {
+	name = "wonup_GEN_cavalry_03_entity"
+	pdxmesh = "wonup_GEN_cavalry_03_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { 
+		name = "rider_weapon"
+		Right_hand_node = "wonup_saber_entity" 
+	}
+}
+
+entity = {
+	name = "GEN_CAVALRY_3"
+	pdxmesh = "wonup_cavalry_horse_02_mesh"
+	version = 1
+	
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "wonup_GEN_cavalry_03_entity" 
+	}
+}
+
+entity = {
 	name = "GEN_INFANTRY_4"
 	pdxmesh = "wonup_GEN_infantry_04_mesh"
 	version = 1
