@@ -1,5 +1,5 @@
 name="[STT]Unit Pack"
-archive="mod/STT_Unit_Pack.zip"
+path="mod/STT_UP"
 tags=
 {
 	"Graphics"
