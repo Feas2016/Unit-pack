@@ -1,0 +1,28 @@
+animation = {
+	name = "STT_cavalry_horse_lance_attack_animation"
+	file = "STT_cavalry_horse_lance_attack.anim"
+}
+
+animation = {
+	name = "STT_cavalry_horse_lance_idle_animation"
+	file = "STT_cavalry_horse_lance_idle.anim"
+}
+animation = {
+	name = "STT_cavalry_horse_lance_moving_animation"
+	file = "STT_cavalry_horse_lance_walk.anim"
+}
+
+animation = {
+	name = "STT_cavalry_rider_lance_attack_animation"
+	file = "STT_cavalry_rider_lance_attack.anim"
+}
+
+animation = {
+	name = "STT_cavalry_rider_lance_idle_animation"
+	file = "STT_cavalry_rider_lance_idle.anim"
+}
+
+animation = {
+	name = "STT_cavalry_rider_lance_moving_animation"
+	file = "STT_cavalry_rider_lance_moving.anim"
+}

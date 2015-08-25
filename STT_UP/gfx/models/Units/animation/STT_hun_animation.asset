@@ -1,0 +1,40 @@
+
+animation = {
+	name = "STT_hun_armor_moving_animation"
+	file = "STT_hun_armor_moving.anim"
+}
+
+
+animation = {
+	name = "STT_hun_attack_animation"
+	file = "STT_hun_attack.anim"
+}
+
+
+animation = {
+	name = "STT_hun_idle_animation"
+	file = "STT_hun_idle.anim"
+}
+
+
+animation = {
+	name = "STT_hun_death_animation"
+	file = "STT_hun_death.anim"
+}
+
+
+
+animation = {
+	name = "STT_hun_rider_attack_animation"
+	file = "STT_hun_rider_attack.anim"
+}
+
+animation = {
+	name = "STT_hun_rider_idle_animation"
+	file = "STT_hun_rider_idle.anim"
+}
+
+animation = {
+	name = "STT_hun_rider_moving_animation"
+	file = "STT_hun_rider_moving.anim"
+}

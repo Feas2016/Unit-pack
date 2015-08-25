@@ -1,0 +1,94 @@
+objectTypes = {
+	###########################################################################
+	############												###############
+	############                      Western                   ###############
+	############												###############
+	###########################################################################
+	
+	pdxmesh = {
+		name = "HO_01_spear_mesh"
+		file = "gfx/models/Units/HO_01_spear.mesh"
+					
+		scale = 0.5
+		
+	}
+	
+	pdxmesh = {
+		name = "HOL_spear_mesh"
+		file = "gfx/models/Units/STT_HOL_spear.mesh"
+					
+		scale = 0.5
+		
+	}
+	
+	pdxmesh = {
+		name = "UEF_01_spear_mesh"
+		file = "gfx/models/Units/UEF_01_spear.mesh"
+					
+		scale = 0.5
+		
+	}
+	
+	###########################################################################
+	############												###############
+	############                      Eastern                   ###############
+	############												###############
+	###########################################################################
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_infantry_01_spear_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_infantry_01_spear.mesh"			
+		
+		scale = 0.5
+	}	
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_cavarly_01_spear_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_cavarly_01_spear.mesh"			
+		
+		scale = 0.5
+	}	
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_cavarly_02_spear_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_cavarly_02_spear.mesh"			
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_cavarly_03_spear_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_cavarly_03_spear.mesh"			
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_infantry_01_shield_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_infantry_01_shield.mesh"			
+		
+		scale = 0.5
+	}	
+	
+	###########################################################################
+	############												###############
+	############                      Muslim                    ###############
+	############												###############
+	###########################################################################
+
+
+	###########################################################################
+	############												###############
+	############                     Chinese                    ###############
+	############												###############
+	###########################################################################
+	
+	pdxmesh = {
+		name = "rattan_shield"
+		file = "gfx/models/Units/rattan_shield.mesh"			
+		
+		scale = 0.5
+	}	
+		
+	###########################################################################
+}

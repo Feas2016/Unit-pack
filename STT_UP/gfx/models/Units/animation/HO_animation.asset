@@ -1,0 +1,40 @@
+
+animation = {
+	name = "HO_armor_moving_animation"
+	file = "HO_armor_moving.anim"
+}
+
+
+animation = {
+	name = "HO_attack_animation"
+	file = "HO_attack.anim"
+}
+
+
+animation = {
+	name = "HO_idle_animation"
+	file = "HO_idle.anim"
+}
+
+
+animation = {
+	name = "HO_death_animation"
+	file = "HO_death.anim"
+}
+
+
+
+animation = {
+	name = "HO_rider_attack_animation"
+	file = "HO_rider_attack.anim"
+}
+
+animation = {
+	name = "HO_rider_idle_animation"
+	file = "HO_rider_idle.anim"
+}
+
+animation = {
+	name = "HO_rider_moving_animation"
+	file = "HO_rider_moving.anim"
+}

@@ -1,0 +1,5238 @@
+###################################################################################################################
+#####                                                                                                         #####
+#####                                            HRE retexture Project	  						              #####
+#####						                            LEVEL 1                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+#################################
+##        HRE Infantry         ##
+#################################
+
+entity = {
+	name = "AAC_INFANTRY_1"
+	pdxmesh = "AAC_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MUN_INFANTRY_1"
+	pdxmesh = "MUN_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "HES_INFANTRY_1"
+	pdxmesh = "HES_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "KOL_INFANTRY_1"
+	pdxmesh = "KOL_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "MAI_INFANTRY_1"
+	pdxmesh = "MAI_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "SHL_INFANTRY_1"
+	pdxmesh = "SHL_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "ALS_INFANTRY_1"
+	pdxmesh = "ALS_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "ANH_INFANTRY_1"
+	pdxmesh = "ANH_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "ANS_INFANTRY_1"
+	pdxmesh = "ANS_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "AUG_INFANTRY_1"
+	pdxmesh = "AUG_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BAD_INFANTRY_1"
+	pdxmesh = "BAD_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BAV_INFANTRY_1"
+	pdxmesh = "BAV_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BOH_INFANTRY_1"
+	pdxmesh = "BOH_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BRA_INFANTRY_1"
+	pdxmesh = "BRA_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BRE_INFANTRY_1"
+	pdxmesh = "BRE_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BRU_INFANTRY_1"
+	pdxmesh = "BRU_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "FRN_INFANTRY_1"
+	pdxmesh = "FRN_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "KLE_INFANTRY_1"
+	pdxmesh = "KLE_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "LAU_INFANTRY_1"
+	pdxmesh = "LAU_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "LOR_INFANTRY_1"
+	pdxmesh = "LOR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "LUN_INFANTRY_1"
+	pdxmesh = "LUN_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MAG_INFANTRY_1"
+	pdxmesh = "MAG_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MKL_INFANTRY_1"
+	pdxmesh = "MKL_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "OLD_INFANTRY_1"
+	pdxmesh = "OLD_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "PAL_INFANTRY_1"
+	pdxmesh = "PAL_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "POM_INFANTRY_1"
+	pdxmesh = "POM_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SAX_INFANTRY_1"
+	pdxmesh = "SAX_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SIL_INFANTRY_1"
+	pdxmesh = "SIL_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SLZ_INFANTRY_1"
+	pdxmesh = "SLZ_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SWI_INFANTRY_1"
+	pdxmesh = "SWI_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "THU_INFANTRY_1"
+	pdxmesh = "THU_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "TRI_INFANTRY_1"
+	pdxmesh = "TRI_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "ULM_INFANTRY_1"
+	pdxmesh = "ULM_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "WBG_INFANTRY_1"
+	pdxmesh = "WBG_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "WUR_INFANTRY_1"
+	pdxmesh = "WUR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "FER_INFANTRY_1"
+	pdxmesh = "FER_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "MAN_INFANTRY_1"
+	pdxmesh = "MAN_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MLO_INFANTRY_1"
+	pdxmesh = "MLO_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MOD_INFANTRY_1"
+	pdxmesh = "MOD_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SAV_INFANTRY_1"
+	pdxmesh = "SAV_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SIE_INFANTRY_1"
+	pdxmesh = "SIE_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "TUS_INFANTRY_1"
+	pdxmesh = "TUS_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "BAR_INFANTRY_1"
+	pdxmesh = "BAR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "EFR_INFANTRY_1"
+	pdxmesh = "EFR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "GER_INFANTRY_1"
+	pdxmesh = "GER_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "HAM_INFANTRY_1"
+	pdxmesh = "HAM_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "HAN_INFANTRY_1"
+	pdxmesh = "HAN_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "HLR_INFANTRY_1"
+	pdxmesh = "HLR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "MEI_INFANTRY_1"
+	pdxmesh = "MEI_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "PRU_INFANTRY_1"
+	pdxmesh = "PRU_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "STY_INFANTRY_1"
+	pdxmesh = "STY_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "TIR_INFANTRY_1"
+	pdxmesh = "TIR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "WES_INFANTRY_1"
+	pdxmesh = "WES_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "ITA_INFANTRY_1"
+	pdxmesh = "ITA_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "PIS_INFANTRY_1"
+	pdxmesh = "PIS_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+entity = {
+	name = "SAR_INFANTRY_1"
+	pdxmesh = "SAR_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+entity = {
+	name = "NED_INFANTRY_1"
+	pdxmesh = "NED_INFANTRY_1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "western_halbard" 
+	}
+}
+
+
+
+#################################
+##         HRE Cavalry         ##
+#################################
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AAC_CAVALRY_1_rider"
+	pdxmesh = "AAC_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "AAC_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AAC_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MUN_CAVALRY_1_rider"
+	pdxmesh = "MUN_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MUN_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MUN_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HES_CAVALRY_1_rider"
+	pdxmesh = "HES_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HES_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HES_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KOL_CAVALRY_1_rider"
+	pdxmesh = "KOL_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "KOL_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KOL_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAI_CAVALRY_1_rider"
+	pdxmesh = "MAI_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAI_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAI_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SHL_CAVALRY_1_rider"
+	pdxmesh = "SHL_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SHL_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SHL_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ALS_CAVALRY_1_rider"
+	pdxmesh = "ALS_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ALS_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ALS_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANH_CAVALRY_1_rider"
+	pdxmesh = "ANH_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ANH_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANH_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANS_CAVALRY_1_rider"
+	pdxmesh = "ANS_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ANS_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANS_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AUG_CAVALRY_1_rider"
+	pdxmesh = "AUG_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "AUG_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AUG_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAD_CAVALRY_1_rider"
+	pdxmesh = "BAD_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAD_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAD_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAV_CAVALRY_1_rider"
+	pdxmesh = "BAV_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAV_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAV_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BOH_CAVALRY_1_rider"
+	pdxmesh = "BOH_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BOH_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BOH_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRA_CAVALRY_1_rider"
+	pdxmesh = "BRA_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRA_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRA_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRE_CAVALRY_1_rider"
+	pdxmesh = "BRE_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRE_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRE_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRU_CAVALRY_1_rider"
+	pdxmesh = "BRU_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRU_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRU_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FRN_CAVALRY_1_rider"
+	pdxmesh = "FRN_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FRN_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FRN_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KLE_CAVALRY_1_rider"
+	pdxmesh = "KLE_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "KLE_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KLE_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LAU_CAVALRY_1_rider"
+	pdxmesh = "LAU_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LAU_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LAU_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LOR_CAVALRY_1_rider"
+	pdxmesh = "LOR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LOR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LOR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LUN_CAVALRY_1_rider"
+	pdxmesh = "LUN_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LUN_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LUN_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAG_CAVALRY_1_rider"
+	pdxmesh = "MAG_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAG_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAG_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MKL_CAVALRY_1_rider"
+	pdxmesh = "MKL_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MKL_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MKL_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "OLD_CAVALRY_1_rider"
+	pdxmesh = "OLD_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "OLD_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "OLD_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PAL_CAVALRY_1_rider"
+	pdxmesh = "PAL_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PAL_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PAL_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "POM_CAVALRY_1_rider"
+	pdxmesh = "POM_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "POM_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "POM_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAX_CAVALRY_1_rider"
+	pdxmesh = "SAX_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAX_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAX_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SIL_CAVALRY_1_rider"
+	pdxmesh = "SIL_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SIL_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SIL_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SLZ_CAVALRY_1_rider"
+	pdxmesh = "SLZ_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SLZ_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SLZ_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SWI_CAVALRY_1_rider"
+	pdxmesh = "SWI_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SWI_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SWI_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "THU_CAVALRY_1_rider"
+	pdxmesh = "THU_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "THU_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "THU_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TRI_CAVALRY_1_rider"
+	pdxmesh = "TRI_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TRI_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TRI_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ULM_CAVALRY_1_rider"
+	pdxmesh = "ULM_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ULM_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ULM_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WBG_CAVALRY_1_rider"
+	pdxmesh = "WBG_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WBG_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WBG_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WUR_CAVALRY_1_rider"
+	pdxmesh = "WUR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WUR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WUR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FER_CAVALRY_1_rider"
+	pdxmesh = "FER_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FER_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FER_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAN_CAVALRY_1_rider"
+	pdxmesh = "MAN_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAN_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAN_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MLO_CAVALRY_1_rider"
+	pdxmesh = "MLO_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MLO_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MLO_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MOD_CAVALRY_1_rider"
+	pdxmesh = "MOD_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MOD_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MOD_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAV_CAVALRY_1_rider"
+	pdxmesh = "SAV_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAV_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAV_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SIE_CAVALRY_1_rider"
+	pdxmesh = "SIE_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SIE_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SIE_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TUS_CAVALRY_1_rider"
+	pdxmesh = "TUS_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TUS_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TUS_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAR_CAVALRY_1_rider"
+	pdxmesh = "BAR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "EFR_CAVALRY_1_rider"
+	pdxmesh = "EFR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "EFR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "EFR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "GER_CAVALRY_1_rider"
+	pdxmesh = "GER_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "GER_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "GER_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAM_CAVALRY_1_rider"
+	pdxmesh = "HAM_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HAM_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAM_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAN_CAVALRY_1_rider"
+	pdxmesh = "HAN_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HAN_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAN_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HLR_CAVALRY_1_rider"
+	pdxmesh = "HLR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HLR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HLR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MEI_CAVALRY_1_rider"
+	pdxmesh = "MEI_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MEI_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MEI_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PRU_CAVALRY_1_rider"
+	pdxmesh = "PRU_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PRU_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PRU_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "STY_CAVALRY_1_rider"
+	pdxmesh = "STY_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "STY_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "STY_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TIR_CAVALRY_1_rider"
+	pdxmesh = "TIR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TIR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TIR_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WES_CAVALRY_1_rider"
+	pdxmesh = "WES_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WES_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WES_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ITA_CAVALRY_1_rider"
+	pdxmesh = "ITA_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ITA_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ITA_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PIS_CAVALRY_1_rider"
+	pdxmesh = "PIS_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PIS_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PIS_CAVALRY_1_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAR_CAVALRY_1_rider"
+	pdxmesh = "SAR_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAR_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAR_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "NED_CAVALRY_1_rider"
+	pdxmesh = "NED_INFANTRY_1"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "NED_CAVALRY_1" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "NED_CAVALRY_1_rider" 
+	}
+}
+
+#################################
+##        HRE Artillery        ##
+#################################
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "AAC_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AAC_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MUN_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MUN_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "HES_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HES_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "KOL_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KOL_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MAI_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAI_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SHL_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SHL_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "ALS_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ALS_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "ANH_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANH_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "ANS_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANS_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "AUG_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AUG_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BAD_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAD_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BAV_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAV_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BOH_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BOH_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BRA_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRA_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BRE_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRE_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BRU_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRU_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "FRN_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FRN_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "KLE_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KLE_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "LAU_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LAU_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "LOR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LOR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "LUN_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LUN_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MAG_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAG_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MKL_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MKL_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "OLD_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "OLD_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "PAL_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PAL_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "POM_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "POM_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SAX_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAX_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SIL_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SIL_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SLZ_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SLZ_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SWI_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SWI_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "THU_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "THU_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "TRI_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TRI_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "ULM_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ULM_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "WBG_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WBG_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "WUR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WUR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "FER_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FER_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MAN_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAN_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MLO_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MLO_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MOD_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MOD_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SAV_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAV_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SIE_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SIE_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "TUS_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TUS_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "BAR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "EFR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "EFR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "GER_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "GER_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "HAM_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAM_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "HLR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HLR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "MEI_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MEI_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "PRU_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PRU_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "STY_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "STY_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "TIR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TIR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "WES_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WES_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "ITA_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ITA_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "PIS_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PIS_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "SAR_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAR_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "NED_ARTILLERY_1" 
+	attach = {
+		name = "gunman"
+		infantry_node = "NED_INFANTRY_1" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
+}
+
+
+
+
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                             HRE retexture Project					      #####
+#####						        LEVEL 2                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+#################################
+##        HRE Infantry         ##
+#################################
+
+
+entity = {
+	name = "AAC_INFANTRY_2"
+	pdxmesh = "AAC_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+
+entity = {
+	name = "LIE_INFANTRY_2"
+	pdxmesh = "LIE_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+
+entity = {
+	name = "GEL_INFANTRY_2"
+	pdxmesh = "GEL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MUN_INFANTRY_2"
+	pdxmesh = "MUN_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HES_INFANTRY_2"
+	pdxmesh = "HES_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "KOL_INFANTRY_2"
+	pdxmesh = "KOL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MAI_INFANTRY_2"
+	pdxmesh = "MAI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SHL_INFANTRY_2"
+	pdxmesh = "SHL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "ALS_INFANTRY_2"
+	pdxmesh = "ALS_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "ANH_INFANTRY_2"
+	pdxmesh = "ANH_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "ANS_INFANTRY_2"
+	pdxmesh = "ANS_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "AUG_INFANTRY_2"
+	pdxmesh = "AUG_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BAD_INFANTRY_2"
+	pdxmesh = "BAD_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BAV_INFANTRY_2"
+	pdxmesh = "BAV_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BOH_INFANTRY_2"
+	pdxmesh = "BOH_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BRA_INFANTRY_2"
+	pdxmesh = "BRA_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BRE_INFANTRY_2"
+	pdxmesh = "BRE_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BRU_INFANTRY_2"
+	pdxmesh = "BRU_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "FRN_INFANTRY_2"
+	pdxmesh = "FRN_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "KLE_INFANTRY_2"
+	pdxmesh = "KLE_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "LAU_INFANTRY_2"
+	pdxmesh = "LAU_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "LOR_INFANTRY_2"
+	pdxmesh = "LOR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "LUN_INFANTRY_2"
+	pdxmesh = "LUN_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MAG_INFANTRY_2"
+	pdxmesh = "MAG_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MKL_INFANTRY_2"
+	pdxmesh = "MKL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "OLD_INFANTRY_2"
+	pdxmesh = "OLD_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "PAL_INFANTRY_2"
+	pdxmesh = "PAL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "POM_INFANTRY_2"
+	pdxmesh = "POM_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SAX_INFANTRY_2"
+	pdxmesh = "SAX_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SIL_INFANTRY_2"
+	pdxmesh = "SIL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SLZ_INFANTRY_2"
+	pdxmesh = "SLZ_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SWI_INFANTRY_2"
+	pdxmesh = "SWI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "THU_INFANTRY_2"
+	pdxmesh = "THU_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "TRI_INFANTRY_2"
+	pdxmesh = "TRI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "ULM_INFANTRY_2"
+	pdxmesh = "ULM_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "WBG_INFANTRY_2"
+	pdxmesh = "WBG_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "WUR_INFANTRY_2"
+	pdxmesh = "WUR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "FER_INFANTRY_2"
+	pdxmesh = "FER_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+
+entity = {
+	name = "MAN_INFANTRY_2"
+	pdxmesh = "MAN_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MLO_INFANTRY_2"
+	pdxmesh = "MLO_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MOD_INFANTRY_2"
+	pdxmesh = "MOD_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SAV_INFANTRY_2"
+	pdxmesh = "SAV_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SIE_INFANTRY_2"
+	pdxmesh = "SIE_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "TUS_INFANTRY_2"
+	pdxmesh = "TUS_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "FRI_INFANTRY_2"
+	pdxmesh = "FRI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "UTR_INFANTRY_2"
+	pdxmesh = "UTR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+
+entity = {
+	name = "BAR_INFANTRY_2"
+	pdxmesh = "BAR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "EFR_INFANTRY_2"
+	pdxmesh = "EFR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "GER_INFANTRY_2"
+	pdxmesh = "GER_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HAM_INFANTRY_2"
+	pdxmesh = "HAM_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HAN_INFANTRY_2"
+	pdxmesh = "HAN_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HLR_INFANTRY_2"
+	pdxmesh = "HLR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "MEI_INFANTRY_2"
+	pdxmesh = "MEI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "PRU_INFANTRY_2"
+	pdxmesh = "PRU_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "STY_INFANTRY_2"
+	pdxmesh = "STY_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "TIR_INFANTRY_2"
+	pdxmesh = "TIR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "WES_INFANTRY_2"
+	pdxmesh = "WES_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "ITA_INFANTRY_2"
+	pdxmesh = "ITA_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "PIS_INFANTRY_2"
+	pdxmesh = "PIS_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "SAR_INFANTRY_2"
+	pdxmesh = "SAR_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "BRB_INFANTRY_2"
+	pdxmesh = "BRB_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "FLA_INFANTRY_2"
+	pdxmesh = "FLA_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HAI_INFANTRY_2"
+	pdxmesh = "HAI_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "HOL_INFANTRY_2"
+	pdxmesh = "HOL_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "LUX_INFANTRY_2"
+	pdxmesh = "LUX_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+entity = {
+	name = "NED_INFANTRY_2"
+	pdxmesh = "NED_INFANTRY_2"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}
+
+
+
+#################################
+##         HRE Cavalry         ##
+#################################
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AAC_CAVALRY_2_rider"
+	pdxmesh = "AAC_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "AAC_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AAC_CAVALRY_2_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LIE_CAVALRY_2_rider"
+	pdxmesh = "LIE_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LIE_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LIE_CAVALRY_2_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "GEL_CAVALRY_2_rider"
+	pdxmesh = "GEL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "GEL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "GEL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MUN_CAVALRY_2_rider"
+	pdxmesh = "MUN_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MUN_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MUN_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HES_CAVALRY_2_rider"
+	pdxmesh = "HES_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HES_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HES_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KOL_CAVALRY_2_rider"
+	pdxmesh = "KOL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "KOL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KOL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAI_CAVALRY_2_rider"
+	pdxmesh = "MAI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SHL_CAVALRY_2_rider"
+	pdxmesh = "SHL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SHL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SHL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ALS_CAVALRY_2_rider"
+	pdxmesh = "ALS_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ALS_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ALS_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANH_CAVALRY_2_rider"
+	pdxmesh = "ANH_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ANH_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANH_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANS_CAVALRY_2_rider"
+	pdxmesh = "ANS_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ANS_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANS_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AUG_CAVALRY_2_rider"
+	pdxmesh = "AUG_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "AUG_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AUG_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAD_CAVALRY_2_rider"
+	pdxmesh = "BAD_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAD_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAD_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAV_CAVALRY_2_rider"
+	pdxmesh = "BAV_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAV_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAV_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BOH_CAVALRY_2_rider"
+	pdxmesh = "BOH_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BOH_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BOH_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRA_CAVALRY_2_rider"
+	pdxmesh = "BRA_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRA_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRA_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRE_CAVALRY_2_rider"
+	pdxmesh = "BRE_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRE_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRE_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRU_CAVALRY_2_rider"
+	pdxmesh = "BRU_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRU_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRU_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FRN_CAVALRY_2_rider"
+	pdxmesh = "FRN_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FRN_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FRN_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KLE_CAVALRY_2_rider"
+	pdxmesh = "KLE_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "KLE_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KLE_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LAU_CAVALRY_2_rider"
+	pdxmesh = "LAU_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LAU_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LAU_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LOR_CAVALRY_2_rider"
+	pdxmesh = "LOR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LOR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LOR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LUN_CAVALRY_2_rider"
+	pdxmesh = "LUN_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LUN_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LUN_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAG_CAVALRY_2_rider"
+	pdxmesh = "MAG_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAG_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAG_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MKL_CAVALRY_2_rider"
+	pdxmesh = "MKL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MKL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MKL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "OLD_CAVALRY_2_rider"
+	pdxmesh = "OLD_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "OLD_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "OLD_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PAL_CAVALRY_2_rider"
+	pdxmesh = "PAL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PAL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PAL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "POM_CAVALRY_2_rider"
+	pdxmesh = "POM_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "POM_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "POM_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAX_CAVALRY_2_rider"
+	pdxmesh = "SAX_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAX_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAX_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SIL_CAVALRY_2_rider"
+	pdxmesh = "SIL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SIL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SIL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SLZ_CAVALRY_2_rider"
+	pdxmesh = "SLZ_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SLZ_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SLZ_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SWI_CAVALRY_2_rider"
+	pdxmesh = "SWI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SWI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SWI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "THU_CAVALRY_2_rider"
+	pdxmesh = "THU_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "THU_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "THU_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TRI_CAVALRY_2_rider"
+	pdxmesh = "TRI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TRI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TRI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ULM_CAVALRY_2_rider"
+	pdxmesh = "ULM_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ULM_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ULM_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WBG_CAVALRY_2_rider"
+	pdxmesh = "WBG_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WBG_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WBG_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WUR_CAVALRY_2_rider"
+	pdxmesh = "WUR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WUR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WUR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FER_CAVALRY_2_rider"
+	pdxmesh = "FER_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FER_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FER_CAVALRY_2_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MAN_CAVALRY_2_rider"
+	pdxmesh = "MAN_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MAN_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MAN_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MLO_CAVALRY_2_rider"
+	pdxmesh = "MLO_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MLO_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MLO_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MOD_CAVALRY_2_rider"
+	pdxmesh = "MOD_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MOD_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MOD_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAV_CAVALRY_2_rider"
+	pdxmesh = "SAV_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAV_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAV_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SIE_CAVALRY_2_rider"
+	pdxmesh = "SIE_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SIE_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SIE_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TUS_CAVALRY_2_rider"
+	pdxmesh = "TUS_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TUS_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TUS_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FRI_CAVALRY_2_rider"
+	pdxmesh = "FRI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FRI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FRI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "UTR_CAVALRY_2_rider"
+	pdxmesh = "UTR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "UTR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "UTR_CAVALRY_2_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAR_CAVALRY_2_rider"
+	pdxmesh = "BAR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BAR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "EFR_CAVALRY_2_rider"
+	pdxmesh = "EFR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "EFR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "EFR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "GER_CAVALRY_2_rider"
+	pdxmesh = "GER_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "GER_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "GER_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAM_CAVALRY_2_rider"
+	pdxmesh = "HAM_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HAM_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAM_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAN_CAVALRY_2_rider"
+	pdxmesh = "HAN_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HAN_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAN_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HLR_CAVALRY_2_rider"
+	pdxmesh = "HLR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HLR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HLR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "MEI_CAVALRY_2_rider"
+	pdxmesh = "MEI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "MEI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "MEI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PRU_CAVALRY_2_rider"
+	pdxmesh = "PRU_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PRU_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PRU_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "STY_CAVALRY_2_rider"
+	pdxmesh = "STY_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "STY_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "STY_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "TIR_CAVALRY_2_rider"
+	pdxmesh = "TIR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "TIR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "TIR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "WES_CAVALRY_2_rider"
+	pdxmesh = "WES_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "WES_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "WES_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ITA_CAVALRY_2_rider"
+	pdxmesh = "ITA_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "ITA_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ITA_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "PIS_CAVALRY_2_rider"
+	pdxmesh = "PIS_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "PIS_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "PIS_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SAR_CAVALRY_2_rider"
+	pdxmesh = "SAR_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "SAR_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SAR_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRB_CAVALRY_2_rider"
+	pdxmesh = "BRB_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "BRB_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRB_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FLA_CAVALRY_2_rider"
+	pdxmesh = "FLA_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "FLA_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FLA_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAI_CAVALRY_2_rider"
+	pdxmesh = "HAI_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HAI_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAI_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HOL_CAVALRY_2_rider"
+	pdxmesh = "HOL_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "HOL_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HOL_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "LUX_CAVALRY_2_rider"
+	pdxmesh = "LUX_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "LUX_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "LUX_CAVALRY_2_rider" 
+	}
+}
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "NED_CAVALRY_2_rider"
+	pdxmesh = "NED_INFANTRY_2"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_1"
+	name = "NED_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "NED_CAVALRY_2_rider" 
+	}
+}
+
+
+
+
+
+
+#################################
+##        HRE Artillery        ##
+#################################
+
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "AAC_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AAC_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "LIE_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LIE_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "GEL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "GEL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MUN_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MUN_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HES_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HES_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "KOL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KOL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MAI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SHL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SHL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "ALS_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ALS_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "ANH_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANH_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "ANS_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANS_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "AUG_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AUG_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BAD_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAD_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BAV_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAV_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BOH_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BOH_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BRA_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRA_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BRE_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRE_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BRU_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRU_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "FRN_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FRN_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "KLE_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KLE_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "LAU_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LAU_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "LOR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LOR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "LUN_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LUN_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MAG_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAG_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MKL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MKL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "OLD_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "OLD_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "PAL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PAL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "POM_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "POM_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SAX_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAX_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SIL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SIL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SLZ_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SLZ_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SWI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SWI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "THU_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "THU_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "TRI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TRI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "ULM_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ULM_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "WBG_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WBG_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "WUR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WUR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "FER_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FER_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MAN_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MAN_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MLO_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MLO_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MOD_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MOD_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SAV_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAV_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SIE_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SIE_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "TUS_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TUS_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "FRI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FRI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "UTR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "UTR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BAR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "EFR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "EFR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "GER_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "GER_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HAM_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAM_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HAN_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAN_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HLR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HLR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "MEI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "MEI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "PRU_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PRU_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "STY_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "STY_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "TIR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "TIR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "WES_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "WES_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "ITA_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ITA_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "PIS_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "PIS_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "SAR_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SAR_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "BRB_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRB_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "FLA_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FLA_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HAI_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAI_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "HOL_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HOL_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "LUX_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "LUX_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_2_generic"
+	name = "NED_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "NED_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_2_cannon" 
+	}
+}
+
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                             HRE retexture Project					      #####
+#####						        LEVEL 3                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+#################################
+##        HRE Infantry         ##
+#################################
+
+entity = {
+	name = "AAC_INFANTRY_3"
+	pdxmesh = "AAC_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "ALS_INFANTRY_3"
+	pdxmesh = "ALS_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "ANH_INFANTRY_3"
+	pdxmesh = "ANH_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "ANS_INFANTRY_3"
+	pdxmesh = "ANS_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "AUG_INFANTRY_3"
+	pdxmesh = "AUG_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BAD_INFANTRY_3"
+	pdxmesh = "BAD_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BAR_INFANTRY_3"
+	pdxmesh = "BAR_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BAV_INFANTRY_3"
+	pdxmesh = "BAV_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BOH_INFANTRY_3"
+	pdxmesh = "BOH_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BRA_INFANTRY_3"
+	pdxmesh = "BRA_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BRE_INFANTRY_3"
+	pdxmesh = "BRE_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "BRU_INFANTRY_3"
+	pdxmesh = "BRU_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "EFR_INFANTRY_3"
+	pdxmesh = "EFR_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "FRN_INFANTRY_3"
+	pdxmesh = "FRN_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "GER_INFANTRY_3"
+	pdxmesh = "GER_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "HAB_INFANTRY_3"
+	pdxmesh = "HAB_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "HAM_INFANTRY_3"
+	pdxmesh = "HAM_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+
+entity = {
+	name = "HAN_INFANTRY_3"
+	pdxmesh = "HAN_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "HES_INFANTRY_3"
+	pdxmesh = "HES_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "SHL_INFANTRY_3"
+	pdxmesh = "SHL_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "HLR_INFANTRY_3"
+	pdxmesh = "HLR_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "KLE_INFANTRY_3"
+	pdxmesh = "KLE_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+entity = {
+	name = "KOL_INFANTRY_3"
+	pdxmesh = "KOL_INFANTRY_3"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "western_musket_2" 
+	}
+}
+
+
+#################################
+##         HRE Cavalry         ##
+#################################
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AAC_CAVALRY_3_rider"
+	pdxmesh = "AAC_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "AAC_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AAC_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ALS_CAVALRY_3_rider"
+	pdxmesh = "ALS_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "ALS_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ALS_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANH_CAVALRY_3_rider"
+	pdxmesh = "ANH_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "ANH_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANH_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "ANS_CAVALRY_3_rider"
+	pdxmesh = "ANS_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "ANS_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "ANS_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "AUG_CAVALRY_3_rider"
+	pdxmesh = "AUG_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "AUG_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "AUG_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAD_CAVALRY_3_rider"
+	pdxmesh = "BAD_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BAD_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAD_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAR_CAVALRY_3_rider"
+	pdxmesh = "BAR_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BAR_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAR_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BAV_CAVALRY_3_rider"
+	pdxmesh = "BAV_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BAV_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BAV_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BOH_CAVALRY_3_rider"
+	pdxmesh = "BOH_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BOH_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BOH_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRA_CAVALRY_3_rider"
+	pdxmesh = "BRA_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BRA_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRA_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRE_CAVALRY_3_rider"
+	pdxmesh = "BRE_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BRE_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRE_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "BRU_CAVALRY_3_rider"
+	pdxmesh = "BRU_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "BRU_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "BRU_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "EFR_CAVALRY_3_rider"
+	pdxmesh = "EFR_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "EFR_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "EFR_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "FRN_CAVALRY_3_rider"
+	pdxmesh = "FRN_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "FRN_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "FRN_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "GER_CAVALRY_3_rider"
+	pdxmesh = "GER_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "GER_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "GER_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAB_CAVALRY_3_rider"
+	pdxmesh = "HAB_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "HAB_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAB_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAM_CAVALRY_3_rider"
+	pdxmesh = "HAM_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "HAM_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAM_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HAN_CAVALRY_3_rider"
+	pdxmesh = "HAN_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "HAN_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HAN_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HES_CAVALRY_3_rider"
+	pdxmesh = "HES_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "HES_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HES_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "SHL_CAVALRY_3_rider"
+	pdxmesh = "SHL_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "SHL_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "SHL_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "HLR_CAVALRY_3_rider"
+	pdxmesh = "HLR_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "HLR_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "HLR_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KLE_CAVALRY_3_rider"
+	pdxmesh = "KLE_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "KLE_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KLE_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "KOL_CAVALRY_3_rider"
+	pdxmesh = "KOL_INFANTRY_3"
+}
+
+entity = { 
+	clone = "westerngfx_CAVALRY_3"
+	name = "KOL_CAVALRY_3" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "KOL_CAVALRY_3_rider" 
+	}
+}
+
+
+
+#################################
+##        HRE Artillery        ##
+#################################
+
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "AAC_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AAC_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "ALS_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ALS_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "ANH_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANH_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "ANS_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "ANS_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "AUG_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "AUG_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BAD_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAD_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BAR_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAR_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BAV_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BAV_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BOH_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BOH_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BRA_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRA_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BRE_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRE_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "BRU_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "BRU_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "EFR_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "EFR_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "FRN_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "FRN_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "GER_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "GER_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "HAB_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAB_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "HAM_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAM_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "HAN_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAN_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "HES_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HES_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "SHL_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "SHL_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "HLR_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HLR_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "KLE_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KLE_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}
+entity = {
+	clone = "westerngfx_ARTILLERY_3_generic"
+	name = "KOL_ARTILLERY_3" 
+	attach = {
+		name = "gunman"
+		infantry_node = "KOL_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_3_cannon" 
+	}
+}

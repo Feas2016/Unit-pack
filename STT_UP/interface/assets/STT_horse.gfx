@@ -1,0 +1,110 @@
+objectTypes = {
+	###########################################################################
+	############												###############
+	############                      Western                   ###############
+	############												###############
+	###########################################################################	
+	
+	
+	
+	###########################################################################
+	############												###############
+	############                      Eastern                   ###############
+	############												###############
+	###########################################################################
+	
+	pdxmesh = {
+		name = "STT_horse_rus_01_mesh"
+		file = "gfx/models/Units/STT_horse_rus_01.mesh"
+		
+		animation = { id = "horse_attack"	type = "cavalry_horse_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_horse_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_horse_moving_animation" }
+		
+		scale = 0.48
+	}
+	
+	pdxmesh = {
+		name = "STT_horse_rus_02_mesh"
+		file = "gfx/models/Units/STT_horse_rus_02.mesh"
+		
+		animation = { id = "horse_attack"	type = "cavalry_horse_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_horse_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_horse_moving_animation" }
+		
+		scale = 0.48
+	}		
+	
+	pdxmesh = {
+		name = "STT_horse_rus_03_mesh"
+		file = "gfx/models/Units/STT_horse_rus_03.mesh"
+		
+		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
+		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
+		
+		scale = 0.48
+	}		
+	
+	pdxmesh = {
+		name = "STT_horse_byz_01_mesh"
+		file = "gfx/models/Units/STT_horse_byz_01.mesh"
+		
+		animation = { id = "horse_attack"		type = "cavalry_horse_attack_animation" }
+		animation = { id = "horse_idle"			type = "cavalry_horse_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_horse_moving_animation" }
+				
+		scale = 0.5		
+	}
+	
+	pdxmesh = {
+		name = "STT_horse_lit_01_mesh"
+		file = "gfx/models/Units/STT_horse_lit_01.mesh"
+		
+		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
+		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
+		
+		scale = 0.48
+	}		
+	
+	pdxmesh = {
+		name = "STT_horse_pol_01_mesh"
+		file = "gfx/models/Units/STT_horse_pol_01.mesh"
+		
+		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
+		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
+		
+		scale = 0.48
+	}	
+	
+	pdxmesh = {
+		name = "STT_horse_pol_02_mesh"
+		file = "gfx/models/Units/STT_horse_pol_02.mesh"
+		
+		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
+		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
+		
+		scale = 0.48
+	}	
+	
+	###########################################################################
+	############												###############
+	############                      Muslim                    ###############
+	############												###############
+	###########################################################################
+
+
+		
+	###########################################################################
+	############												###############
+	############                     Chinese                    ###############
+	############												###############
+	###########################################################################
+	
+	
+	
+	###########################################################################
+}
