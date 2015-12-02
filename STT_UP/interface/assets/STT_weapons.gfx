@@ -29,6 +29,30 @@ objectTypes = {
 		
 	}
 	
+	pdxmesh = {
+		name = "STT_weapon_western_musket_2_mesh"
+		file = "gfx/models/Units/STT_weapon_western_musket_2.mesh"
+					
+		scale = 0.5
+		
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_western_musket_3_mesh"
+		file = "gfx/models/Units/STT_weapon_western_musket_3.mesh"
+					
+		scale = 0.5
+		
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_western_musket_4_mesh"
+		file = "gfx/models/Units/STT_weapon_western_musket_4.mesh"
+					
+		scale = 0.5
+		
+	}	
+	
 	###########################################################################
 	############												###############
 	############                      Eastern                   ###############

@@ -25,8 +25,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_NOV_infantry_02.mesh"			
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }	
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }	
 		
 		scale = 0.5
 	}
@@ -106,8 +106,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_ZAZ_cavalry_02.mesh"		
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }		
 		
 		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
@@ -121,8 +121,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_RUS_cavalry_02.mesh"		
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }		
 		
 		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
@@ -137,15 +137,22 @@ objectTypes = {
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
 		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }	
+		
+		scale = 0.5
+	}	
+
+	pdxmesh = {
+		name = "STT_eastern_RUS_cavalry_04_mesh"
+		file = "gfx/models/Units/STT_eastern_RUS_cavarly_04.mesh"			
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
 		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }		
 		
 		scale = 0.5
-	}	
-	
+	}
+
 ###################################################################################################################
 #####                                                                                                         #####
 #####                                           POLAND LITVA 1-4 lvl                                          #####
@@ -172,8 +179,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_LIT_infantry_02.mesh"			
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -187,8 +194,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_LIT_cavalry_02.mesh"			
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -232,8 +239,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_POL_infantry_02.mesh"			
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
@@ -247,8 +254,8 @@ objectTypes = {
 		file = "gfx/models/Units/STT_eastern_POL_cavarly_02.mesh"			
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
@@ -313,9 +320,9 @@ objectTypes = {
 		name = "STT_eastern_SER_infantry_02_mesh"
 		file = "gfx/models/Units/STT_eastern_SER_infantry_02.mesh"			
 
-		animation = { id = "idle"				type = "rifleman_idle_animation" }
-		animation = { id = "walk"				type = "rifleman_moving_animation" }
-		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
@@ -342,8 +349,8 @@ objectTypes = {
 		name = "RAG_INFANTRY_2"
 		file = "gfx/models/Units/RAG_01.mesh"			
 
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"			type = "rifleman_attack_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
@@ -381,7 +388,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "polearm_onehanded_attack_animation" }
 		animation = { id = "idle"	type = "polearm_onehanded_idle_animation" }
 		animation = { id = "walk"	type = "polearm_onehanded_moving_animation" }
-		animation = { id = "death"	type = "polearm_twohanded_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -396,9 +402,8 @@ objectTypes = {
 		file = "gfx/models/Units/BYZ_02.mesh"
 		
 		animation = { id = "attack"	type = "rifleman_attack_animation" }
-		animation = { id = "idle"	type = "rifleman_idle_animation" }
-		animation = { id = "walk"	type = "rifleman_moving_animation" }
-		animation = { id = "death"	type = "polearm_twohanded_death_animation" }
+		animation = { id = "idle"	type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"	type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -409,13 +414,44 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
-		name = "BYZ_infantry_03_mesh"
+		name = "BUL_infantry_03_mesh"
 		file = "gfx/models/Units/BYZ_03.mesh"
 		
 		animation = { id = "attack"	type = "rifleman_attack_animation" }
 		animation = { id = "idle"	type = "rifleman_idle_animation" }
 		animation = { id = "walk"	type = "rifleman_moving_animation" }
-		animation = { id = "death"	type = "polearm_twohanded_death_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }				
+		
+		scale = 0.5
+		
+	}
+	
+	pdxmesh = {
+		name = "BUL_infantry_04_mesh"
+		file = "gfx/models/Units/BYZ_04.mesh"
+		
+		animation = { id = "attack"	type = "rifleman_attack_animation" }
+		animation = { id = "idle"	type = "rifleman_idle_animation" }
+		animation = { id = "walk"	type = "rifleman_moving_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }				
+		
+		scale = 0.5
+		
+	}
+
+	pdxmesh = {
+		name = "BYZ_infantry_03_mesh"
+		file = "gfx/models/Units/STT_eastern_BYZ_infantry_03.mesh"
+		
+		animation = { id = "attack"	type = "rifleman_attack_animation" }
+		animation = { id = "idle"	type = "rifleman_idle_animation" }
+		animation = { id = "walk"	type = "rifleman_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -427,12 +463,11 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "BYZ_infantry_04_mesh"
-		file = "gfx/models/Units/BYZ_04.mesh"
+		file = "gfx/models/Units/STT_eastern_BYZ_infantry_04.mesh"
 		
 		animation = { id = "attack"	type = "rifleman_attack_animation" }
 		animation = { id = "idle"	type = "rifleman_idle_animation" }
 		animation = { id = "walk"	type = "rifleman_moving_animation" }
-		animation = { id = "death"	type = "polearm_twohanded_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -441,6 +476,5 @@ objectTypes = {
 		scale = 0.5
 		
 	}
-
 ###################################################################################################################
 }

@@ -15,7 +15,7 @@ entity = {
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Left_hand_node= "western_musket_2" 
+		Left_hand_node= "STT_weapon_western_musket_4" 
 	}
 }
 
@@ -205,156 +205,58 @@ entity = {
 
 ###################################################################################################################
 #####                                                                                                         #####
-#####                                                  HOLLAND                                                #####
+#####                                                  NIDERLANDS                                             #####
 #####                                                                                                         #####
 ###################################################################################################################
 
-
 entity = {
-	name = "BRB_INFANTRY_1"
-	pdxmesh = "BRB_infantry_01_mesh"
-	version = 1
+	name = "NED_INFANTRY_1"
+	pdxmesh = "NED_infantry_01_mesh"
+	version = 3
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Right_hand_node = "HOL_spear" 
+		Right_hand_node = "HO_01_spear_entity" 
 	}
 }
 
-entity = {				
-	name = "BUR_INFANTRY_1"				
-	pdxmesh = "BUR_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-
-entity = {				
-	name = "FLA_INFANTRY_1"				
-	pdxmesh = "FLA_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-
-entity = {			
-	name = "GEL_INFANTRY_1"				
-	pdxmesh = "GEL_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-
-entity = {				
-	name = "HAI_INFANTRY_1"				
-	pdxmesh = "HAI_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-entity = {			
-	name = "HOL_INFANTRY_1"				
-	pdxmesh = "HOL_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-entity = {				
-	name = "LIE_INFANTRY_1"				
-	pdxmesh = "LIE_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-entity = {				
-	name = "LUX_INFANTRY_1"				
-	pdxmesh = "LUX_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-entity = {				
-	name = "UTR_INFANTRY_1"				
-	pdxmesh = "UTR_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
-entity = {				
-	name = "FRI_INFANTRY_1"				
-	pdxmesh = "FRI_infantry_01_mesh"				
-	version = 1
-	state = { name = "idle" 		animation = "idle" }
-	state = { name = "walk" 		animation = "walk" }
-	state = { name = "attack"		animation = "attack" }
-	
-	attach = {
-		Right_hand_node = "HOL_spear" 		
-	}
-}
+entity = { clone = "NED_INFANTRY_1"	 name = "BAR_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "BRB_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "BUR_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "FLA_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "FRI_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "GEL_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "HAI_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "HOL_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "LIE_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "LOR_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "LUX_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "NEV_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "PIC_INFANTRY_1" 	version = 3}
+entity = { clone = "NED_INFANTRY_1"	 name = "UTR_INFANTRY_1" 	version = 3}
 
 #######################################################################################
 
 entity = {
-	name = "BRB_CAVALRY_1"
+	name = "NED_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
+	version = 3
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
 
 	attach = {
 		name = "rider"
-		Saddle_Node = "BRB_CAVALRY_1_rider" 
+		Saddle_Node = "NED_CAVALRY_1_rider" 
 	}
 }
 
 entity = {
-	name = "BRB_CAVALRY_1_rider"
-	pdxmesh = "BRB_infantry_01_mesh"
-
+	name = "NED_CAVALRY_1_rider"
+	pdxmesh = "NED_infantry_01_mesh"
+	version = 3
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -364,139 +266,27 @@ entity = {
 	}
 }
 
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "BUR_CAVALRY_1_rider"
-	pdxmesh = "BUR_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "BUR_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "BUR_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "FLA_CAVALRY_1_rider"
-	pdxmesh = "FLA_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "FLA_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "FLA_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "GEL_CAVALRY_1_rider"
-	pdxmesh = "GEL_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "GEL_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "GEL_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "HAI_CAVALRY_1_rider"
-	pdxmesh = "HAI_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "HAI_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "HAI_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "HOL_CAVALRY_1_rider"
-	pdxmesh = "HOL_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "HOL_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "HOL_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "LIE_CAVALRY_1_rider"
-	pdxmesh = "LIE_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "LIE_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "LIE_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "LUX_CAVALRY_1_rider"
-	pdxmesh = "LUX_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "LUX_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "LUX_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "UTR_CAVALRY_1_rider"
-	pdxmesh = "UTR_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "UTR_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "UTR_CAVALRY_1_rider" 
-	}
-}
-entity = {
-	clone = "BRB_CAVALRY_1_rider"
-	name = "FRI_CAVALRY_1_rider"
-	pdxmesh = "FRI_infantry_01_mesh"
-}
-
-entity = { 
-	clone = "BRB_CAVALRY_1"
-	name = "FRI_CAVALRY_1" 
-	attach = { 
-		name = "rider"
-		Saddle_Node = "FRI_CAVALRY_1_rider" 
-	}
-}
+entity = { clone = "NED_CAVALRY_1"	 name = "BAR_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "BRB_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "BUR_CAVALRY_1"		version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "FLA_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "FRI_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "GEL_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "HAI_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "HOL_CAVALRY_1"	 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "LIE_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "LOR_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "LUX_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "NEV_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "PIC_CAVALRY_1" 	version = 3}
+entity = { clone = "NED_CAVALRY_1"	 name = "UTR_CAVALRY_1" 	version = 3}
 
 #######################################################################################
 
 entity = {
-	name = "BRB_ARTILLERY_1_cannon"
+	name = "NED_ARTILLERY_1_cannon"
 	pdxmesh = "artillery_mesh"
-
+	version = 3
 	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
 	state = { name = "idle" 		animation = "artillery_idle" }
 	state = { name = "walk" 		animation = "artillery_moving" }
@@ -504,101 +294,34 @@ entity = {
 }
 
 entity = {
-	name = "BRB_ARTILLERY_1"
+	name = "NED_ARTILLERY_1"
 	pdxmesh = "artillery_base_mesh"
-
+	version = 3
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }
-	
+	version = 3
 	attach = { 
 		name = "gunman"
-		infantry_node = "BRB_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
+		infantry_node = "NED_INFANTRY_1" 
+		cannon_node = "NED_ARTILLERY_1_cannon" 
 	}
 }
 
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "BUR_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "BUR_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "FLA_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "FLA_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "GEL_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "GEL_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "HAI_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "HAI_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "HOL_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "HOL_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "LIE_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "LIE_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "LUX_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "LUX_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "UTR_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "UTR_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
-entity = {
-	clone = "BRB_ARTILLERY_1"
-	name = "FRI_ARTILLERY_1" 
-	attach = {
-		name = "gunman"
-		infantry_node = "FRI_INFANTRY_1" 
-		cannon_node = "BRB_ARTILLERY_1_cannon" 
-	}
-}
+entity = { clone = "NED_ARTILLERY_1"	 name = "BAR_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "BRB_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "BUR_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "FLA_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "FRI_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "GEL_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "HAI_ARTILLERY_1"	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "HOL_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "LIE_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "LOR_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "LUX_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "NEV_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "PIC_ARTILLERY_1" 	version = 3}
+entity = { clone = "NED_ARTILLERY_1"	 name = "UTR_ARTILLERY_1" 	version = 3}
 
 ###################################################################################################################
 #####                                                                                                         #####
@@ -609,8 +332,7 @@ entity = {
 
 
 entity = {				
-	name = "CYP_INFANTRY_1"		
-	version = 1		
+	name = "CYP_INFANTRY_1"
 	pdxmesh = "CYP_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -623,8 +345,7 @@ entity = {
 
 
 entity = {
-	name = "CYP_INFANTRY_2"		
-	version = 1		
+	name = "CYP_INFANTRY_2"
 	pdxmesh = "CYP_INFANTRY_2"	
 
 	state = { name = "idle" 		animation = "idle" }
@@ -632,7 +353,7 @@ entity = {
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 		}
 }
 
@@ -640,7 +361,6 @@ entity = {
 entity = {
 	name = "CYP_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -654,7 +374,6 @@ entity = {
 entity = {
 	name = "CYP_CAVALRY_2"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -668,7 +387,6 @@ entity = {
 entity = {
 	name = "CYP_CAVALRY_1_rider"
 	pdxmesh = "CYP_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -681,7 +399,6 @@ entity = {
 entity = {
 	name = "CYP_CAVALRY_2_rider"
 	pdxmesh = "CYP_INFANTRY_2"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -695,8 +412,7 @@ entity = {
 ##TEUTONS
 
 entity = {				
-	name = "TEU_INFANTRY_1"	
-	version = 1
+	name = "TEU_INFANTRY_1"
 	pdxmesh = "TEU_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -710,7 +426,6 @@ entity = {
 entity = {
 	name = "TEU_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -724,7 +439,6 @@ entity = {
 entity = {
 	name = "TEU_CAVALRY_1_rider"
 	pdxmesh = "TEU_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -735,8 +449,7 @@ entity = {
 }
 
 entity = {				
-	name = "NAX_INFANTRY_1"		
-	version = 1		
+	name = "NAX_INFANTRY_1"
 	pdxmesh = "NAX_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -751,7 +464,6 @@ entity = {
 entity = {
 	name = "NAX_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -765,7 +477,6 @@ entity = {
 entity = {
 	name = "NAX_CAVALRY_1_rider"
 	pdxmesh = "NAX_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -778,8 +489,7 @@ entity = {
 ##HOSPITALLER
 
 entity = {				
-	name = "KNI_INFANTRY_1"		
-	version = 1		
+	name = "KNI_INFANTRY_1"	
 	pdxmesh = "KNI_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -794,7 +504,6 @@ entity = {
 entity = {
 	name = "KNI_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -808,7 +517,6 @@ entity = {
 entity = {
 	name = "KNI_CAVALRY_1_rider"
 	pdxmesh = "KNI_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -820,7 +528,6 @@ entity = {
 
 entity = {				
 	name = "ATH_INFANTRY_1"		
-	version = 1		
 	pdxmesh = "ATH_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -834,7 +541,6 @@ entity = {
 entity = {
 	name = "ATH_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -848,7 +554,6 @@ entity = {
 entity = {
 	name = "ATH_CAVALRY_1_rider"
 	pdxmesh = "ATH_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -861,8 +566,7 @@ entity = {
 ##LIVONIANS
 
 entity = {				
-	name = "LIV_INFANTRY_1"		
-	version = 1		
+	name = "LIV_INFANTRY_1"
 	pdxmesh = "LIV_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -877,7 +581,6 @@ entity = {
 entity = {
 	name = "LIV_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -891,7 +594,6 @@ entity = {
 entity = {
 	name = "LIV_CAVALRY_1_rider"
 	pdxmesh = "LIV_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -904,8 +606,7 @@ entity = {
 ##JERUSALEM
 
 entity = {				
-	name = "KOJ_INFANTRY_1"		
-	version = 1		
+	name = "KOJ_INFANTRY_1"
 	pdxmesh = "KOJ_INFANTRY_1"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -918,23 +619,20 @@ entity = {
 
 
 entity = {
-	name = "KOJ_INFANTRY_2"		
-	version = 1		
-	pdxmesh = "KOJ_INFANTRY_2"	
-
+	name = "KOJ_INFANTRY_2"
+	pdxmesh = "KOJ_INFANTRY_2"
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 		}
 }
 
 entity = {
 	name = "KOJ_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -948,7 +646,6 @@ entity = {
 entity = {
 	name = "KOJ_CAVALRY_2"
 	pdxmesh = "cavalry_horse"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -962,7 +659,6 @@ entity = {
 entity = {
 	name = "KOJ_CAVALRY_1_rider"
 	pdxmesh = "KOJ_INFANTRY_1"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -975,7 +671,6 @@ entity = {
 entity = {
 	name = "KOJ_CAVALRY_2_rider"
 	pdxmesh = "KOJ_INFANTRY_2"
-
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
@@ -990,7 +685,6 @@ entity = {
 entity = {
 	name = "KOJ_ARTILLERY_1_cannon"
 	pdxmesh = "artillery_mesh"
-
 	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
 	state = { name = "idle" 		animation = "artillery_idle" }
 	state = { name = "walk" 		animation = "artillery_moving" }
@@ -1000,7 +694,6 @@ entity = {
 entity = {
 	name = "KOJ_ARTILLERY_1"
 	pdxmesh = "artillery_base_mesh"
-
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }

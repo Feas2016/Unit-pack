@@ -9,13 +9,13 @@
 entity = {
 	name = "NOV_INFANTRY_1"
 	pdxmesh = "STT_eastern_NOV_infantry_01_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "attack" }
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }	
 	
-		attach = { 
+	attach = { 
 		Right_hand_node = "STT_weapon_eastern_infantry_01_spear" 
 	}
 }
@@ -23,7 +23,7 @@ entity = {
 entity = {
 	name = "NOV_CAVALRY_1_rider"
 	pdxmesh = "STT_eastern_NOV_infantry_01_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -38,7 +38,7 @@ entity = {
 entity = {
 	name = "NOV_CAVALRY_1"
 	pdxmesh = "STT_horse_rus_01_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -53,35 +53,35 @@ entity = {
 entity = {
 	name = "NOV_INFANTRY_2"
 	pdxmesh = "STT_eastern_NOV_infantry_02_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "attack" }
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 	}
 }
 
 entity = {
 	name = "NOV_INFANTRY_3"
 	pdxmesh = "STT_eastern_NOV_infantry_03_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "attack" }
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 
 	attach = { 
-		Left_hand_node = "western_musket_2" 
+		Left_hand_node = "STT_weapon_western_musket_3" 
 	}
 }
 
 entity = {
 	name = "NOV_CAVALRY_3_rider"
 	pdxmesh = "STT_eastern_NOV_cavalry_03_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -96,7 +96,7 @@ entity = {
 entity = {
 	name = "NOV_CAVALRY_3"
 	pdxmesh = "STT_horse_rus_02_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -111,21 +111,21 @@ entity = {
 entity = {
 	name = "NOV_INFANTRY_4"
 	pdxmesh = "STT_eastern_NOV_infantry_04_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "attack" }
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 
 	attach = { 
-		Left_hand_node= "western_musket_2" 
+		Left_hand_node= "STT_weapon_western_musket_4" 
 	}
 }
 
 entity = {
 	name = "NOV_CAVALRY_4_rider"
 	pdxmesh = "STT_eastern_NOV_cavalry_04_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -140,7 +140,7 @@ entity = {
 entity = {
 	name = "NOV_CAVALRY_4"
 	pdxmesh = "STT_horse_rus_02_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -155,7 +155,7 @@ entity = {
 entity = {
 	name = "NOV_ARTILLERY_1_cannon"
 	pdxmesh = "artillery_mesh"
-
+	version = 3
 	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
 	state = { name = "idle" 		animation = "artillery_idle" }
 	state = { name = "walk" 		animation = "artillery_moving" }
@@ -165,7 +165,7 @@ entity = {
 entity = {
 	name = "NOV_ARTILLERY_1"
 	pdxmesh = "artillery_base_mesh"
-
+	version = 3
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }
@@ -206,95 +206,116 @@ entity = {
 	}
 }
 
-entity = { clone = "NOV_INFANTRY_1"	 name = "RUS_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "MOS_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "TSR_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "NZH_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "PRM_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "PSK_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "RYA_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "TVE_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "YAR_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "SLV_INFANTRY_1" }
-entity = { clone = "NOV_INFANTRY_1"	 name = "SMO_INFANTRY_1" }
+entity = { clone = "NOV_INFANTRY_1"	 name = "RUS_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "MOS_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "TSR_INFANTRY_1"	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "NZH_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "PRM_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "PSK_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "RYA_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "TVE_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "YAR_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "SLV_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "SMO_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "BOZ_INFANTRY_1" 	version = 3}
+entity = { clone = "NOV_INFANTRY_1"	 name = "VIA_INFANTRY_1" 	version = 3}
 
-entity = { clone = "NOV_CAVALRY_1"	 name = "RUS_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "MOS_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "TSR_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "NZH_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "PRM_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "PSK_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "RYA_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "TVE_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "YAR_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "SLV_CAVALRY_1" }
-entity = { clone = "NOV_CAVALRY_1"	 name = "SMO_CAVALRY_1" }
+entity = { clone = "NOV_CAVALRY_1"	 name = "RUS_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "MOS_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "TSR_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "NZH_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "PSK_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "RYA_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "TVE_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "YAR_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "SLV_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "SMO_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "BOZ_CAVALRY_1" 	version = 3}
+entity = { clone = "NOV_CAVALRY_1"	 name = "VIA_CAVALRY_1" 	version = 3}
 
-entity = { clone = "NOV_ARTILLERY_1"	 name = "RUS_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "MOS_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "TSR_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "NZH_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "PRM_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "PSK_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "RYA_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "TVE_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "YAR_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "SLV_ARTILLERY_1" }
-entity = { clone = "NOV_ARTILLERY_1"	 name = "SMO_ARTILLERY_1" }
+entity = { clone = "NOV_ARTILLERY_1"	 name = "RUS_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "MOS_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "TSR_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "NZH_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "PRM_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "PSK_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "RYA_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "TVE_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "YAR_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "SLV_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "SMO_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "BOZ_ARTILLERY_1" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_1"	 name = "VIA_ARTILLERY_1" 	version = 3}
 
-entity = { clone = "NOV_INFANTRY_2"	 name = "PRM_INFANTRY_2" }
-entity = { clone = "NOV_INFANTRY_2"	 name = "PSK_INFANTRY_2" }
+entity = { clone = "NOV_INFANTRY_2"	 name = "PRM_INFANTRY_2" 	version = 3}
+entity = { clone = "NOV_INFANTRY_2"	 name = "PSK_INFANTRY_2" 	version = 3}
+entity = { clone = "NOV_INFANTRY_2"	 name = "BOZ_INFANTRY_2" 	version = 3}
+entity = { clone = "NOV_INFANTRY_2"	 name = "VIA_INFANTRY_2" 	version = 3}
 
-entity = { clone = "NOV_ARTILLERY_2" name = "PRM_ARTILLERY_2" }
-entity = { clone = "NOV_ARTILLERY_2" name = "PSK_ARTILLERY_2" }
+entity = { clone = "NOV_ARTILLERY_2" name = "PRM_ARTILLERY_2" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_2" name = "PSK_ARTILLERY_2" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_2" name = "BOZ_ARTILLERY_2" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_2" name = "VIA_ARTILLERY_2" 	version = 3}
 
-entity = { clone = "NOV_INFANTRY_3"	 name = "RUS_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "MOS_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "TSR_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "NZH_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "PLT_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "PRM_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "PSK_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "RYA_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "SMO_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "TVE_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "YAR_INFANTRY_3" }
-entity = { clone = "NOV_INFANTRY_3"	 name = "SLV_INFANTRY_3" }
+entity = { clone = "NOV_INFANTRY_3"	 name = "RUS_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "MOS_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "TSR_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "NZH_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "PLT_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "PRM_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "PSK_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "RYA_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "SMO_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "TVE_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "YAR_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "SLV_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "BOZ_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "VIA_INFANTRY_3" 	version = 3}
 
-entity = { clone = "NOV_CAVALRY_3"	 name = "RUS_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "MOS_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "TSR_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "NZH_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "PLT_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "PRM_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "PSK_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "RYA_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "SMO_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "TVE_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "YAR_CAVALRY_3" }
-entity = { clone = "NOV_CAVALRY_3"	 name = "SLV_CAVALRY_3" }
+entity = { clone = "NOV_CAVALRY_3"	 name = "RUS_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "MOS_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "TSR_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "NZH_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "PLT_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "PRM_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "PSK_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "RYA_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "SMO_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "TVE_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "YAR_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "SLV_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "BOZ_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "VIA_CAVALRY_3" 	version = 3}
 
-entity = { clone = "NOV_ARTILLERY_3"	 name = "RUS_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "MOS_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "TSR_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "NZH_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "PLT_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "PRM_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "PSK_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "RYA_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "SMO_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "TVE_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "YAR_ARTILLERY_3" }
-entity = { clone = "NOV_ARTILLERY_3"	 name = "SLV_ARTILLERY_3" }
+entity = { clone = "NOV_ARTILLERY_3"	 name = "RUS_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "MOS_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "TSR_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "NZH_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "PLT_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "PRM_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "PSK_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "RYA_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "SMO_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "TVE_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "YAR_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "SLV_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "BOZ_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "VIA_ARTILLERY_3" 	version = 3}
 
-entity = { clone = "NOV_INFANTRY_4"	 name = "PRM_INFANTRY_4" }
-entity = { clone = "NOV_INFANTRY_4"	 name = "PSK_INFANTRY_4" }
+entity = { clone = "NOV_INFANTRY_4"	 name = "PRM_INFANTRY_4" 	version = 3}
+entity = { clone = "NOV_INFANTRY_4"	 name = "PSK_INFANTRY_4" 	version = 3}
+entity = { clone = "NOV_INFANTRY_4"	 name = "BOZ_INFANTRY_4" 	version = 3}
+entity = { clone = "NOV_INFANTRY_4"	 name = "VIA_INFANTRY_4" 	version = 3}
 
-entity = { clone = "NOV_CAVALRY_4"	 name = "PRM_CAVALRY_4" }
-entity = { clone = "NOV_CAVALRY_4"	 name = "PSK_CAVALRY_4" }
+entity = { clone = "NOV_CAVALRY_4"	 name = "PRM_CAVALRY_4" 	version = 3}
+entity = { clone = "NOV_CAVALRY_4"	 name = "PSK_CAVALRY_4" 	version = 3}
+entity = { clone = "NOV_CAVALRY_4"	 name = "BOZ_CAVALRY_4" 	version = 3}
+entity = { clone = "NOV_CAVALRY_4"	 name = "VIA_CAVALRY_4" 	version = 3}
 
-entity = { clone = "NOV_ARTILLERY_4" name = "PRM_ARTILLERY_4" }
-entity = { clone = "NOV_ARTILLERY_4" name = "PSK_ARTILLERY_4" }
+entity = { clone = "NOV_ARTILLERY_4" name = "PRM_ARTILLERY_4" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_4" name = "PSK_ARTILLERY_4" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_4" name = "BOZ_ARTILLERY_4" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_4" name = "VIA_ARTILLERY_4" 	version = 3}
 
 ###################################################################################################################
 #####                                                                                                         #####
@@ -305,7 +326,7 @@ entity = { clone = "NOV_ARTILLERY_4" name = "PSK_ARTILLERY_4" }
 entity = {
 	name = "RUS_CAVALRY_2_rider"
 	pdxmesh = "STT_eastern_RUS_cavalry_02_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -320,7 +341,7 @@ entity = {
 entity = {
 	name = "RUS_CAVALRY_2"
 	pdxmesh = "STT_horse_rus_03_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -335,21 +356,21 @@ entity = {
 entity = {
 	name = "RUS_INFANTRY_4"
 	pdxmesh = "STT_eastern_RUS_infantry_04_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "attack" }
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 
 	attach = { 
-		Left_hand_node= "western_musket_2" 
+		Left_hand_node= "STT_weapon_western_musket_4" 
 	}
 }
 
 entity = {
 	name = "RUS_CAVALRY_4_rider"
-	pdxmesh = "STT_eastern_RUS_infantry_04_mesh"
-	version = 1
+	pdxmesh = "STT_eastern_RUS_cavalry_04_mesh"
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -364,7 +385,7 @@ entity = {
 entity = {
 	name = "RUS_CAVALRY_4"
 	pdxmesh = "STT_horse_rus_02_mesh"
-	version = 1
+	version = 3
 	
 	state = { name = "attack"		animation = "horse_attack" }
 	state = { name = "idle" 		animation = "horse_idle" }
@@ -386,51 +407,51 @@ entity = {
 	}
 }
 
-entity = { clone = "RUS_CAVALRY_2"	 name = "MOS_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "TSR_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "NZH_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "PLT_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "RYA_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "SMO_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "TVE_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "YAR_CAVALRY_2" }
-entity = { clone = "RUS_CAVALRY_2"	 name = "SLV_CAVALRY_2" }
+entity = { clone = "RUS_CAVALRY_2"	 name = "MOS_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "TSR_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "NZH_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "PLT_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "RYA_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "SMO_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "TVE_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "YAR_CAVALRY_2" 	version = 3}
+entity = { clone = "RUS_CAVALRY_2"	 name = "SLV_CAVALRY_2" 	version = 3}
 
-entity = { clone = "RUS_INFANTRY_4"	 name = "MOS_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "TSR_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "NZH_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "PLT_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "RYA_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "SMO_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "TVE_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "CHR_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "ZAZ_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "YAR_INFANTRY_4" }
-entity = { clone = "RUS_INFANTRY_4"	 name = "SLV_INFANTRY_4" }
+entity = { clone = "RUS_INFANTRY_4"	 name = "MOS_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "TSR_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "NZH_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "PLT_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "RYA_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "SMO_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "TVE_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "CHR_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "ZAZ_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "YAR_INFANTRY_4" 	version = 3}
+entity = { clone = "RUS_INFANTRY_4"	 name = "SLV_INFANTRY_4" 	version = 3}
 
-entity = { clone = "RUS_CAVALRY_4"	 name = "MOS_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "TSR_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "NZH_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "PLT_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "RYA_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "SMO_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "TVE_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "CHR_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "ZAZ_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "YAR_CAVALRY_4" }
-entity = { clone = "RUS_CAVALRY_4"	 name = "SLV_CAVALRY_4" }
+entity = { clone = "RUS_CAVALRY_4"	 name = "MOS_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "TSR_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "NZH_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "PLT_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "RYA_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "SMO_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "TVE_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "CHR_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "ZAZ_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "YAR_CAVALRY_4" 	version = 3}
+entity = { clone = "RUS_CAVALRY_4"	 name = "SLV_CAVALRY_4" 	version = 3}
 
-entity = { clone = "RUS_ARTILLERY_4"	 name = "MOS_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "TSR_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "NZH_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "PLT_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "RYA_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "TVE_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "CHR_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "ZAZ_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "YAR_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "SLV_ARTILLERY_4" }
-entity = { clone = "RUS_ARTILLERY_4"	 name = "SMO_ARTILLERY_4" }
+entity = { clone = "RUS_ARTILLERY_4"	 name = "MOS_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "TSR_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "NZH_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "PLT_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "RYA_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "TVE_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "CHR_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "ZAZ_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "YAR_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "SLV_ARTILLERY_4" 	version = 3}
+entity = { clone = "RUS_ARTILLERY_4"	 name = "SMO_ARTILLERY_4" 	version = 3}
 
 ###################################################################################################################
 #####                                                                                                         #####
@@ -502,7 +523,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 	}
 }
 
@@ -643,7 +664,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 	}
 }
 
@@ -697,7 +718,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket_2"
+		Left_hand_node = "STT_weapon_western_musket_3"
 	}
 }
 
@@ -751,7 +772,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket_2"
+		Left_hand_node = "STT_weapon_western_musket_4"
 	}
 }
 
@@ -871,7 +892,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 	}
 }
 
@@ -925,7 +946,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket_2"
+		Left_hand_node = "STT_weapon_western_musket_3"
 	}
 }
 
@@ -979,7 +1000,7 @@ entity = {
 	state = { name = "walk" 		animation = "walk" }	
 	
 	attach = { 
-		Left_hand_node = "western_musket_2"
+		Left_hand_node = "STT_weapon_western_musket_4"
 	}
 }
 
@@ -1143,7 +1164,7 @@ entity = {
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 	}
 }
 
@@ -1243,7 +1264,7 @@ entity = {
 	state = { name = "attack"		animation = "attack" }
 
 	attach = { 
-		Left_hand_node = "western_musket" 
+		Left_hand_node = "STT_weapon_western_musket_2" 
 		}
 }
 
@@ -1374,6 +1395,34 @@ entity = {
 
 entity = {
 					
+	name = "BUL_INFANTRY_3"				
+	pdxmesh = "BUL_infantry_03_mesh"	
+	version = 1
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }	
+	
+	attach = {
+		Left_hand_node = "muslim_rifle_03" 		
+	}
+}
+
+entity = {
+			
+	name = "BUL_INFANTRY_4"				
+	pdxmesh = "BUL_infantry_04_mesh"	
+	version = 1
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }	
+	
+	attach = {
+		Left_hand_node = "muslim_rifle_03" 		
+	}
+}
+
+entity = {
+					
 	name = "BYZ_INFANTRY_3"				
 	pdxmesh = "BYZ_infantry_03_mesh"	
 	version = 1
@@ -1428,6 +1477,34 @@ entity = {
 }
 
 entity = {				
+	name = "BUL_CAVALRY_3_rider"				
+	pdxmesh = "BUL_infantry_03_mesh"				
+	version = 1
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	
+	attach = {
+		Right_hand_node = "cavalry_saber" 		
+	}
+}
+
+entity = {				
+	name = "BUL_CAVALRY_4_rider"				
+	pdxmesh = "BUL_infantry_04_mesh"				
+	version = 1
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	
+	attach = {
+		Right_hand_node = "cavalry_saber" 		
+	}
+}
+
+entity = {				
 	name = "BYZ_CAVALRY_3_rider"				
 	pdxmesh = "BYZ_infantry_03_mesh"				
 	version = 1
@@ -1455,7 +1532,6 @@ entity = {
 	}
 }
 
-
 entity = {
 	name = "BYZ_CAVALRY_1"
 	pdxmesh = "cavalry_horse"
@@ -1481,6 +1557,34 @@ entity = {
 	attach = {
 		name = "rider"
 		Saddle_Node = "BYZ_CAVALRY_2_rider" 
+	}
+}
+
+entity = {
+	name = "BUL_CAVALRY_3"
+	pdxmesh = "STT_horse_byz_01_mesh"
+	version = 1
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "BUL_CAVALRY_3_rider" 
+	}
+}
+
+entity = {
+	name = "BUL_CAVALRY_4"
+	pdxmesh = "STT_horse_byz_01_mesh"
+	version = 1
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "BUL_CAVALRY_4_rider" 
 	}
 }
 
@@ -1588,55 +1692,51 @@ entity = { clone = "BYZ_INFANTRY_1"		name = "GEO_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "GEO_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "GEO_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "GEO_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "GEO_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "GEO_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "GEO_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "GEO_CAVALRY_4"  }
+entity = { clone = "BUL_INFANTRY_3"		name = "GEO_INFANTRY_3" }
+entity = { clone = "BUL_CAVALRY_3" 		name = "GEO_CAVALRY_3"  }
+entity = { clone = "BUL_INFANTRY_4"		name = "GEO_INFANTRY_4" }
+entity = { clone = "BUL_CAVALRY_4" 		name = "GEO_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "BUL_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "BUL_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "BUL_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "BUL_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "BUL_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "BUL_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "BUL_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "BUL_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "CIR_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "CIR_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "CIR_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "CIR_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "CIR_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "CIR_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "CIR_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "CIR_CAVALRY_4"  }
+entity = { clone = "BUL_INFANTRY_3"		name = "CIR_INFANTRY_3" }
+entity = { clone = "BUL_CAVALRY_3" 		name = "CIR_CAVALRY_3"  }
+entity = { clone = "BUL_INFANTRY_4"		name = "CIR_INFANTRY_4" }
+entity = { clone = "BUL_CAVALRY_4" 		name = "CIR_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "GEO_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "GEO_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "GEO_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "GEO_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "GEO_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "GEO_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "GEO_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "GEO_CAVALRY_4"  }
+entity = { clone = "BUL_INFANTRY_3"		name = "GEO_INFANTRY_3" }
+entity = { clone = "BUL_CAVALRY_3" 		name = "GEO_CAVALRY_3"  }
+entity = { clone = "BUL_INFANTRY_4"		name = "GEO_INFANTRY_4" }
+entity = { clone = "BUL_CAVALRY_4" 		name = "GEO_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "ARM_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "ARM_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "ARM_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "ARM_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "ARM_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "ARM_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "ARM_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "ARM_CAVALRY_4"  }
+entity = { clone = "BUL_INFANTRY_3"		name = "ARM_INFANTRY_3" }
+entity = { clone = "BUL_CAVALRY_3" 		name = "ARM_CAVALRY_3"  }
+entity = { clone = "BUL_INFANTRY_4"		name = "ARM_INFANTRY_4" }
+entity = { clone = "BUL_CAVALRY_4" 		name = "ARM_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "IME_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "IME_CAVALRY_1"  }
 entity = { clone = "BYZ_INFANTRY_2"		name = "IME_INFANTRY_2" }
 entity = { clone = "BYZ_CAVALRY_2" 		name = "IME_CAVALRY_2"  }
-entity = { clone = "BYZ_INFANTRY_3"		name = "IME_INFANTRY_3" }
-entity = { clone = "BYZ_CAVALRY_3" 		name = "IME_CAVALRY_3"  }
-entity = { clone = "BYZ_INFANTRY_4"		name = "IME_INFANTRY_4" }
-entity = { clone = "BYZ_CAVALRY_4" 		name = "IME_CAVALRY_4"  }
+entity = { clone = "BUL_INFANTRY_3"		name = "IME_INFANTRY_3" }
+entity = { clone = "BUL_CAVALRY_3" 		name = "IME_CAVALRY_3"  }
+entity = { clone = "BUL_INFANTRY_4"		name = "IME_INFANTRY_4" }
+entity = { clone = "BUL_CAVALRY_4" 		name = "IME_CAVALRY_4"  }
 
 entity = { clone = "BYZ_INFANTRY_1"		name = "MON_INFANTRY_1" }
 entity = { clone = "BYZ_CAVALRY_1" 		name = "MON_CAVALRY_1"  }
@@ -1742,6 +1842,27 @@ entity = {
 		cannon_node = "BYZ_ARTILLERY_1_cannon" 
 	}
 }
+
+entity = {
+	clone = "BYZ_ARTILLERY_1"
+	name = "BUL_ARTILLERY_3"
+	attach = { 
+		name = "gunman"
+		infantry_node = "BUL_INFANTRY_3" 
+		cannon_node = "BYZ_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "BYZ_ARTILLERY_1"
+	name = "BUL_ARTILLERY_4"
+	attach = { 
+		name = "gunman"
+		infantry_node = "BUL_INFANTRY_4" 
+		cannon_node = "BYZ_ARTILLERY_1_cannon" 
+	}
+}
+
 entity = { clone = "BYZ_ARTILLERY_1"	 name = "ACH_ARTILLERY_1" }
 entity = { clone = "BYZ_ARTILLERY_1"	 name = "CEP_ARTILLERY_1" }
 entity = { clone = "BYZ_ARTILLERY_1"	 name = "GRE_ARTILLERY_1" }
@@ -1780,11 +1901,10 @@ entity = { clone = "BYZ_ARTILLERY_3"	 name = "EPI_ARTILLERY_3" }
 entity = { clone = "BYZ_ARTILLERY_3"	 name = "MOE_ARTILLERY_3" }
 entity = { clone = "BYZ_ARTILLERY_3"	 name = "TRE_ARTILLERY_3" }
 entity = { clone = "BYZ_ARTILLERY_3"	 name = "FEO_ARTILLERY_3" }
-entity = { clone = "BYZ_ARTILLERY_3"	 name = "GEO_ARTILLERY_3" }
-entity = { clone = "BYZ_ARTILLERY_3"	 name = "BUL_ARTILLERY_3" }
-entity = { clone = "BYZ_ARTILLERY_3"	 name = "CIR_ARTILLERY_3" }
-entity = { clone = "BYZ_ARTILLERY_3"	 name = "IME_ARTILLERY_3" }
-entity = { clone = "BYZ_ARTILLERY_3"	 name = "ARM_ARTILLERY_3" }
+entity = { clone = "BUL_ARTILLERY_3"	 name = "GEO_ARTILLERY_3" }
+entity = { clone = "BUL_ARTILLERY_3"	 name = "CIR_ARTILLERY_3" }
+entity = { clone = "BUL_ARTILLERY_3"	 name = "IME_ARTILLERY_3" }
+entity = { clone = "BUL_ARTILLERY_3"	 name = "ARM_ARTILLERY_3" }
 entity = { clone = "BYZ_ARTILLERY_3"	 name = "MON_ARTILLERY_3" }
 
 entity = { clone = "BYZ_ARTILLERY_4"	 name = "ACH_ARTILLERY_4" }
@@ -1795,11 +1915,10 @@ entity = { clone = "BYZ_ARTILLERY_4"	 name = "EPI_ARTILLERY_4" }
 entity = { clone = "BYZ_ARTILLERY_4"	 name = "MOE_ARTILLERY_4" }
 entity = { clone = "BYZ_ARTILLERY_4"	 name = "TRE_ARTILLERY_4" }
 entity = { clone = "BYZ_ARTILLERY_4"	 name = "FEO_ARTILLERY_4" }
-entity = { clone = "BYZ_ARTILLERY_4"	 name = "GEO_ARTILLERY_4" }
-entity = { clone = "BYZ_ARTILLERY_4"	 name = "BUL_ARTILLERY_4" }
-entity = { clone = "BYZ_ARTILLERY_4"	 name = "CIR_ARTILLERY_4" }
-entity = { clone = "BYZ_ARTILLERY_4"	 name = "IME_ARTILLERY_4" }
-entity = { clone = "BYZ_ARTILLERY_4"	 name = "ARM_ARTILLERY_4" }
+entity = { clone = "BUL_ARTILLERY_4"	 name = "GEO_ARTILLERY_4" }
+entity = { clone = "BUL_ARTILLERY_4"	 name = "CIR_ARTILLERY_4" }
+entity = { clone = "BUL_ARTILLERY_4"	 name = "IME_ARTILLERY_4" }
+entity = { clone = "BUL_ARTILLERY_4"	 name = "ARM_ARTILLERY_4" }
 entity = { clone = "BYZ_ARTILLERY_4"	 name = "MON_ARTILLERY_4" }
 
 entity = { clone = "BYZ_ARTILLERY_1"	 name = "PQR_ARTILLERY_1" }

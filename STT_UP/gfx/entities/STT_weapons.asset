@@ -19,6 +19,21 @@
 		pdxmesh = "UEF_01_spear_mesh"				
 	}
 	
+	entity = {				
+		name = "STT_weapon_western_musket_2"
+		pdxmesh = "STT_weapon_western_musket_2_mesh"
+	}
+	
+	entity = {				
+		name = "STT_weapon_western_musket_3"
+		pdxmesh = "STT_weapon_western_musket_3_mesh"
+	}
+	
+	entity = {				
+		name = "STT_weapon_western_musket_4"
+		pdxmesh = "STT_weapon_western_musket_4_mesh"
+	}
+		
 	###########################################################################
 	############												###############
 	############                      Eastern                   ###############

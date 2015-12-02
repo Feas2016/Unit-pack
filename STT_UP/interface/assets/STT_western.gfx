@@ -11,7 +11,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -28,14 +27,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
 		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -50,7 +45,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -68,14 +62,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -92,7 +82,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -110,14 +99,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -132,7 +117,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -150,14 +134,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -172,7 +152,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -190,14 +169,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -212,7 +187,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -230,14 +204,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -251,7 +221,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -269,14 +238,10 @@ objectTypes = {
 		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
 		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
 		animation = { id = "attack"				type = "rifleman_attack_animation" }
-		animation = { id = "death"				type = "rifleman_death_animation" }
-		animation = { id = "retreat"			type = "rifleman_retreat_animation" }
 		
 		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
-		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
-		animation = { id = "horse_retraet"		type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
 		
 		animation = { id = "artillery_attack"	type = "rifleman_attack_animation" }				
 		
@@ -297,7 +262,6 @@ objectTypes = {
 		animation = { id = "attack"	type = "HO_attack_animation" }
 		animation = { id = "idle"	type = "HO_idle_animation" }
 		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
 		
 		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
@@ -309,171 +273,26 @@ objectTypes = {
 	
 ###################################################################################################################
 #####                                                                                                         #####
-#####                                                  HOLLAND                                                #####
+#####                                                NEDERLANDS                                               #####
 #####                                                                                                         #####
 ###################################################################################################################
 
 	pdxmesh = {
-		name = "BRB_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_BRB_infantry_01.mesh"
+		name = "NED_infantry_01_mesh"
+		file = "gfx/models/Units/STT_western_NED_infantry_01.mesh"
 		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
+		animation = { id = "attack"			type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"			type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"			type = "polearm_twohanded_moving_animation" }
 		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}
-	pdxmesh = {
-		name = "BUR_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_BUR_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }				
 		
 		scale = 0.5
 		
 	}
-	pdxmesh = {
-		name = "FLA_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_FLA_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}	
-	pdxmesh = {
-		name = "GEL_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_GEL_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}
-	pdxmesh = {
-		name = "HAI_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_HAI_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}
-	pdxmesh = {
-		name = "HOL_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_HOL_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}		
-	pdxmesh = {
-		name = "LIE_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_LIE_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}		
-		pdxmesh = {
-		name = "LUX_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_LUX_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}	
-		pdxmesh = {
-		name = "UTR_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_01_UTR_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}	
-	pdxmesh = {
-		name = "FRI_infantry_01_mesh"
-		file = "gfx/models/Units/STT_HOL_02_FRI_infantry_01.mesh"
-		
-		animation = { id = "attack"	type = "HO_attack_animation" }
-		animation = { id = "idle"	type = "HO_idle_animation" }
-		animation = { id = "walk"	type = "HO_armor_moving_animation" }
-		animation = { id = "death"	type = "HO_death_animation" }
-		
-		animation = { id = "horse_attack"	type = "HO_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "HO_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "HO_rider_moving_animation" }				
-		
-		scale = 0.5
-		
-	}	
-
+	
 ###################################################################################################################
 #####                                                                                                         #####
 #####                                              Germany 4 lvl                                              #####
