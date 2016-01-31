@@ -306,17 +306,35 @@ entity = {
 
 entity = {
 	clone = "westerngfx_ARTILLERY_1"
-	name = "westerngfx_ARTILLERY_2_generic"
+	name = "westerngfx_ARTILLERY_2"
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "westerngfx_INFANTRY_2" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
 }
 
 entity = {
 	clone = "westerngfx_ARTILLERY_1"
-	name = "westerngfx_ARTILLERY_3_generic"
+	name = "westerngfx_ARTILLERY_3"
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "westerngfx_INFANTRY_3" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
 }
 
 entity = {
 	clone = "westerngfx_ARTILLERY_1"
-	name = "westerngfx_ARTILLERY_4_generic"
+	name = "westerngfx_ARTILLERY_4"
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "westerngfx_INFANTRY_4" 
+		cannon_node = "westerngfx_ARTILLERY_1_cannon" 
+	}
 }
 
 ###################################################################################################################

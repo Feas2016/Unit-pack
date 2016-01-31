@@ -166,7 +166,14 @@ objectTypes = {
 		animation = { id = "attack"			type = "polearm_onehanded_attack_animation" }		
 		animation = { id = "idle"			type = "polearm_onehanded_idle_animation" }
 		animation = { id = "walk"			type = "polearm_onehanded_moving_animation" }
-		
+
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "STT_eastern_LIT_cavalry_01_mesh"
+		file = "gfx/models/Units/STT_eastern_LIT_cavalry_01.mesh"		
+
 		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }	
@@ -180,11 +187,7 @@ objectTypes = {
 		
 		animation = { id = "attack"			type = "rifleman_attack_animation" }		
 		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
-		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
-		
-		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }		
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }	
 		
 		scale = 0.5
 	}	
@@ -192,10 +195,6 @@ objectTypes = {
 	pdxmesh = {
 		name = "STT_eastern_LIT_cavalry_02_mesh"
 		file = "gfx/models/Units/STT_eastern_LIT_cavalry_02.mesh"			
-		
-		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
-		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
 		
 		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
 		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
@@ -235,65 +234,71 @@ objectTypes = {
 	}	
 	
 	pdxmesh = {
-		name = "STT_eastern_POL_infantry_02_mesh"
-		file = "gfx/models/Units/STT_eastern_POL_infantry_02.mesh"			
-		
-		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
-		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
-		
-		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
-		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
-		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }		
-		
-		scale = 0.5
-	}	
-	
-	pdxmesh = {
-		name = "STT_eastern_POL_cavarly_02_mesh"
-		file = "gfx/models/Units/STT_eastern_POL_cavarly_02.mesh"			
-		
-		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
-		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
-		
-		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
-		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
-		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }			
-		
-		scale = 0.5
-	}	
-	
-	
-	pdxmesh = {
-		name = "STT_eastern_POL_cavarly_03_mesh"
-		file = "gfx/models/Units/STT_eastern_POL_cavarly_03.mesh"			
-		
-		animation = { id = "attack"			type = "rifleman_attack_animation" }		
-		animation = { id = "idle"			type = "rifleman_idle_animation" }
-		animation = { id = "walk"			type = "rifleman_moving_animation" }
-		
-		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }		
+		name = "STT_eastern_POL_cavarly_01_mesh"
+		file = "gfx/models/Units/STT_eastern_POL_cavarly_01.mesh"
+
+		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }	
 		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }	
-		
+
 		scale = 0.5
-	}	
-	
+	}
+
+	pdxmesh = {
+		name = "STT_eastern_POL_infantry_02_mesh"
+		file = "gfx/models/Units/STT_eastern_POL_infantry_02.mesh"
+
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+
+		scale = 0.5
+	}
+
+	pdxmesh = {
+		name = "STT_eastern_POL_cavarly_02_mesh"
+		file = "gfx/models/Units/STT_eastern_POL_cavarly_02.mesh"
+
+		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }	
+		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }	
+
+		scale = 0.5
+	}
+
+
+	pdxmesh = {
+		name = "STT_eastern_POL_cavarly_03_mesh"
+		file = "gfx/models/Units/STT_eastern_POL_cavarly_03.mesh"
+
+		animation = { id = "horse_attack"	type = "STT_cavalry_rider_lance_attack_animation" }	
+		animation = { id = "horse_idle"		type = "STT_cavalry_rider_lance_idle_animation" }
+		animation = { id = "horse_walk"		type = "STT_cavalry_rider_lance_moving_animation" }	
+
+		scale = 0.5
+	}
+
 	pdxmesh = {
 		name = "STT_eastern_POL_infantry_04_mesh"
-		file = "gfx/models/Units/STT_eastern_POL_infantry_04.mesh"			
-		
-		animation = { id = "attack"			type = "rifleman_attack_animation" }		
+		file = "gfx/models/Units/STT_eastern_POL_infantry_04.mesh"
+
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
 		animation = { id = "idle"			type = "rifleman_idle_animation" }
 		animation = { id = "walk"			type = "rifleman_moving_animation" }
-		
-		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }		
-		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
-		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }		
-		
+
 		scale = 0.5
-	}	
+	}
+
+	pdxmesh = {
+		name = "STT_eastern_POL_cavarly_04_mesh"
+		file = "gfx/models/Units/STT_eastern_POL_cavarly_04.mesh"
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
+
+		scale = 0.5
+	}
 	
 ###################################################################################################################
 #####                                                                                                         #####

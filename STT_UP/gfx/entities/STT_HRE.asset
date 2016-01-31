@@ -3816,6 +3816,15 @@ entity = {
 }
 entity = {
 	clone = "AAC_ARTILLERY_2_generic"
+	name = "HAB_ARTILLERY_2" 
+	attach = {
+		name = "gunman"
+		infantry_node = "HAB_INFANTRY_2" 
+		cannon_node = "AAC_ARTILLERY_1_cannon" 
+	}
+}
+entity = {
+	clone = "AAC_ARTILLERY_2_generic"
 	name = "KOL_ARTILLERY_2" 
 	attach = {
 		name = "gunman"
@@ -4561,6 +4570,7 @@ entity = {
 entity = {
 	name = "HAB_INFANTRY_3"
 	pdxmesh = "HAB_INFANTRY_3"
+	version = 1
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
@@ -5150,7 +5160,7 @@ entity = {
 }
 entity = {
 	clone = "AAC_ARTILLERY_3_generic"
-	name = "HAB_ARTILLERY_3" 
+	name = "HAB_ARTILLERY_3" 	
 	attach = {
 		name = "gunman"
 		infantry_node = "HAB_INFANTRY_3" 
