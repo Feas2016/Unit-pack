@@ -4,4 +4,4 @@ tags={
 	"Graphics"
 }
 picture="holyordersgfx.jpg"
-supported_version="1.15"
+supported_version="1.16"

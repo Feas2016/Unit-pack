@@ -18,7 +18,7 @@ entity = {
 }
 
 entity = {
-	name = "ENG_INFANTRY_1"
+	name = "CNN_INFANTRY_1"
 	pdxmesh = "western_generic_01_type4"
 
 	state = { name = "idle" 		animation = "idle" }
@@ -30,16 +30,22 @@ entity = {
 	}
 }
 
-entity = { clone = "ENG_INFANTRY_1"		name = "GBR_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "SCO_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "MNS_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "CNN_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "TYR_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "LEI_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "NOL_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "CRN_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "WLS_INFANTRY_1" }
-entity = { clone = "ENG_INFANTRY_1"		name = "MTH_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "ENG_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "GBR_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "WLS_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "NOL_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "CRN_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "SCO_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "HSC_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "IRE_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "MTH_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "ULS_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "TYR_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "SLN_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "KID_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "MNS_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "LEI_INFANTRY_1" }
+entity = { clone = "CNN_INFANTRY_1"		name = "DMS_INFANTRY_1" }
 
 entity = {
 	name = "NOR_INFANTRY_1"
@@ -55,6 +61,7 @@ entity = {
 }
 
 entity = { clone = "NOR_INFANTRY_1"		name = "SWE_INFANTRY_1" }
+entity = { clone = "NOR_INFANTRY_1"		name = "ICE_INFANTRY_1" }
 entity = { clone = "NOR_INFANTRY_1"		name = "GOT_INFANTRY_1" }
 entity = { clone = "NOR_INFANTRY_1"		name = "FIN_INFANTRY_1" }
 entity = { clone = "NOR_INFANTRY_1"		name = "EST_INFANTRY_1" }
