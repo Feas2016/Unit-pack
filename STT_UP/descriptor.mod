@@ -5,4 +5,4 @@ tags=
 	"Graphics" 
 }
 picture="holyordersgfx.jpg"
-supported_version="1.17"
+supported_version="1.19"
