@@ -160,7 +160,7 @@ entity = {
 
 entity = {
 	name = "westerngfx_CAVALRY_1_rider"
-	pdxmesh = "western_generic_01_type6"
+	pdxmesh = "western_generic_01_type1"
 
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
