@@ -310,18 +310,21 @@ entity = { clone = "NOV_INFANTRY_2"	 name = "PSK_INFANTRY_2" 	version = 3}
 entity = { clone = "NOV_INFANTRY_2"	 name = "VIA_INFANTRY_2" 	version = 3}
 entity = { clone = "NOV_INFANTRY_2"	 name = "RMI_INFANTRY_2" 	version = 3}
 entity = { clone = "NOV_INFANTRY_2"	 name = "UDM_INFANTRY_2" 	version = 3}
+entity = { clone = "NOV_INFANTRY_2"	 name = "PLM_INFANTRY_2" 	version = 3}
 
 entity = { clone = "NOV_CAVALRY_2"	 name = "PRM_CAVALRY_2" 	version = 3}
 entity = { clone = "NOV_CAVALRY_2"	 name = "PSK_CAVALRY_2" 	version = 3}
 entity = { clone = "NOV_CAVALRY_2"	 name = "VIA_CAVALRY_2" 	version = 3}
 entity = { clone = "NOV_CAVALRY_2"	 name = "RMI_CAVALRY_2" 	version = 3}
 entity = { clone = "NOV_CAVALRY_2"	 name = "UDM_CAVALRY_2" 	version = 3}
+entity = { clone = "NOV_CAVALRY_2"	 name = "PLM_CAVALRY_2" 	version = 3}
 
 entity = { clone = "NOV_ARTILLERY_2" name = "PRM_ARTILLERY_2" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_2" name = "PSK_ARTILLERY_2" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_2" name = "VIA_ARTILLERY_2" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_2" name = "RMI_ARTILLERY_2" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_2" name = "UDM_ARTILLERY_2" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_2" name = "PLM_ARTILLERY_2" 	version = 3}
 
 entity = { clone = "NOV_INFANTRY_3"	 name = "RUS_INFANTRY_3" 	version = 3}
 entity = { clone = "NOV_INFANTRY_3"	 name = "MOS_INFANTRY_3" 	version = 3}
@@ -344,6 +347,7 @@ entity = { clone = "NOV_INFANTRY_3"	 name = "ROS_INFANTRY_3" 	version = 3}
 entity = { clone = "NOV_INFANTRY_3"	 name = "MRD_INFANTRY_3" 	version = 3}
 entity = { clone = "NOV_INFANTRY_3"	 name = "RMI_INFANTRY_3" 	version = 3}
 entity = { clone = "NOV_INFANTRY_3"	 name = "UDM_INFANTRY_3" 	version = 3}
+entity = { clone = "NOV_INFANTRY_3"	 name = "PLM_INFANTRY_3" 	version = 3}
 
 entity = { clone = "NOV_CAVALRY_3"	 name = "RUS_CAVALRY_3" 	version = 3}
 entity = { clone = "NOV_CAVALRY_3"	 name = "MOS_CAVALRY_3" 	version = 3}
@@ -366,6 +370,7 @@ entity = { clone = "NOV_CAVALRY_3"	 name = "ROS_CAVALRY_3" 	version = 3}
 entity = { clone = "NOV_CAVALRY_3"	 name = "MRD_CAVALRY_3" 	version = 3}
 entity = { clone = "NOV_CAVALRY_3"	 name = "RMI_CAVALRY_3" 	version = 3}
 entity = { clone = "NOV_CAVALRY_3"	 name = "UDM_CAVALRY_3" 	version = 3}
+entity = { clone = "NOV_CAVALRY_3"	 name = "PLM_CAVALRY_3" 	version = 3}
 
 entity = { clone = "NOV_ARTILLERY_3"	 name = "RUS_ARTILLERY_3" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_3"	 name = "MOS_ARTILLERY_3" 	version = 3}
@@ -388,24 +393,28 @@ entity = { clone = "NOV_ARTILLERY_3"	 name = "ROS_ARTILLERY_3" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_3"	 name = "MRD_ARTILLERY_3" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_3"	 name = "RMI_ARTILLERY_3" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_3"	 name = "UDM_ARTILLERY_3" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_3"	 name = "PLM_ARTILLERY_3" 	version = 3}
 
 entity = { clone = "NOV_INFANTRY_4"	 name = "PRM_INFANTRY_4" 	version = 3}
 entity = { clone = "NOV_INFANTRY_4"	 name = "PSK_INFANTRY_4" 	version = 3}
 entity = { clone = "NOV_INFANTRY_4"	 name = "VIA_INFANTRY_4" 	version = 3}
 entity = { clone = "NOV_INFANTRY_4"	 name = "RMI_INFANTRY_4" 	version = 3}
 entity = { clone = "NOV_INFANTRY_4"	 name = "UDM_INFANTRY_4" 	version = 3}
+entity = { clone = "NOV_INFANTRY_4"	 name = "PLM_INFANTRY_4" 	version = 3}
 
 entity = { clone = "NOV_CAVALRY_4"	 name = "PRM_CAVALRY_4" 	version = 3}
 entity = { clone = "NOV_CAVALRY_4"	 name = "PSK_CAVALRY_4" 	version = 3}
 entity = { clone = "NOV_CAVALRY_4"	 name = "VIA_CAVALRY_4" 	version = 3}
 entity = { clone = "NOV_CAVALRY_4"	 name = "RMI_CAVALRY_4" 	version = 3}
 entity = { clone = "NOV_CAVALRY_4"	 name = "UDM_CAVALRY_4" 	version = 3}
+entity = { clone = "NOV_CAVALRY_4"	 name = "PLM_CAVALRY_4" 	version = 3}
 
 entity = { clone = "NOV_ARTILLERY_4" name = "PRM_ARTILLERY_4" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_4" name = "PSK_ARTILLERY_4" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_4" name = "VIA_ARTILLERY_4" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_4" name = "RMI_ARTILLERY_4" 	version = 3}
 entity = { clone = "NOV_ARTILLERY_4" name = "UDM_ARTILLERY_4" 	version = 3}
+entity = { clone = "NOV_ARTILLERY_4" name = "PLM_ARTILLERY_4" 	version = 3}
 
 ###################################################################################################################
 #####                                                                                                         #####
