@@ -11,6 +11,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = { 
 		Right_hand_node = "african_spear" 
@@ -24,6 +26,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = { 
 		Right_hand_node = "muslim_spear" 
@@ -43,6 +47,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = {
 		Right_hand_node = "african_spear"
@@ -56,6 +62,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 	
 	attach = { 
 		Left_hand_node = "STT_weapon_western_musket_2" 
@@ -75,6 +83,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = { 
 		Left_hand_node = "STT_weapon_western_musket_3" 
@@ -88,6 +98,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = { 
 		Right_hand_node = "african_spear"
@@ -107,6 +119,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = {
 		Right_hand_node = "african_spear"
@@ -119,6 +133,8 @@ entity = {
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk" }
 	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	state = { name = "death"		animation = "death" }
 
 	attach = { 
 		Left_hand_node = "STT_weapon_western_musket_4" 
@@ -138,6 +154,8 @@ entity = {
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_walk" }
+	state = { name = "death"		animation = "horse_death" }
 
 	attach = {
 		name = "rider"
@@ -152,6 +170,8 @@ entity = {
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_retreat" }
+	state = { name = "death"		animation = "horse_death" }
 
 	attach = { 
 		Right_hand_node = "cavalry_saber" 
@@ -165,6 +185,8 @@ entity = {
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_walk" }
+	state = { name = "death"		animation = "horse_death" }
 
 	attach = {
 		name = "rider"
@@ -179,6 +201,8 @@ entity = {
 	state = { name = "idle" 		animation = "horse_idle" }
 	state = { name = "walk" 		animation = "horse_walk" }
 	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_retreat" }
+	state = { name = "death"		animation = "horse_death" }
 
 	attach = { 
 		Right_hand_node = "cavalry_saber" 
@@ -290,7 +314,9 @@ entity = {
 
 	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
 	state = { name = "idle" 		animation = "artillery_idle" }
+	state = { name = "death" 		animation = "artillery_idle" }
 	state = { name = "walk" 		animation = "artillery_moving" }
+	state = { name = "retreat" 		animation = "artillery_moving" }
 	
 }
 
@@ -315,7 +341,9 @@ entity = {
 
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "death" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }
+	state = { name = "retreat" 		animation = "artillery_base_moving" }
 	
 	attach = { 
 		name = "gunman"
@@ -345,7 +373,9 @@ entity = {
 
 	state = { name = "attack"		animation = "artillery_base_attack" }
 	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "death" 		animation = "artillery_base_idle" }
 	state = { name = "walk" 		animation = "artillery_base_moving" }
+	state = { name = "retreat" 		animation = "artillery_base_moving" }
 	
 	attach = { 
 		name = "gunman"

@@ -2,7 +2,8 @@ name="[STT]Unit Pack"
 path="mod/STT_UP"
 tags=
 {
-	"Graphics" 
+	"Graphics"
+	"Units" 
 }
 picture="holyordersgfx.jpg"
-supported_version="1.19"
+supported_version="1.22.*"
