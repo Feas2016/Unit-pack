@@ -92,7 +92,22 @@ objectTypes = {
 		file = "gfx/models/Units/STT_weapon_eastern_infantry_01_shield.mesh"			
 		
 		scale = 0.5
-	}	
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_infantry_02_shield_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_infantry_02_shield.mesh"			
+		
+		scale = 0.33
+	}
+	
+	pdxmesh = {
+		name = "STT_weapon_eastern_infantry_02_spear_mesh"
+		file = "gfx/models/Units/STT_weapon_eastern_infantry_02_spear.mesh"			
+		
+		scale = 0.33
+	}
+	
 	
 	###########################################################################
 	############												###############

@@ -21,6 +21,7 @@ objectTypes = {
 		animation = { id = "horse_idle"		type = "cavalry_horse_idle_animation" }
 		animation = { id = "horse_walk"		type = "cavalry_horse_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_death"	type = "cavalry_horse_idle_animation" }
 
 		scale = 0.48
 	}
@@ -33,6 +34,7 @@ objectTypes = {
 		animation = { id = "horse_idle"		type = "cavalry_horse_idle_animation" }
 		animation = { id = "horse_walk"		type = "cavalry_horse_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_death"	type = "cavalry_horse_idle_animation" }
 
 		scale = 0.48
 	}		
@@ -44,7 +46,8 @@ objectTypes = {
 		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
 		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
-		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_retreat"	type = "STT_cavalry_horse_lance_moving_animation" }
+		animation = { id = "horse_death"	type = "STT_cavalry_horse_lance_idle_animation" }
 
 		scale = 0.48
 	}		
@@ -57,6 +60,7 @@ objectTypes = {
 		animation = { id = "horse_idle"		type = "cavalry_horse_idle_animation" }
 		animation = { id = "horse_walk"		type = "cavalry_horse_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_death"	type = "cavalry_horse_idle_animation" }
 		
 		scale = 0.5		
 	}
@@ -68,7 +72,8 @@ objectTypes = {
 		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
 		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
-		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_retreat"	type = "STT_cavalry_horse_lance_moving_animation" }
+		animation = { id = "horse_death"	type = "STT_cavalry_horse_lance_idle_animation" }
 
 		scale = 0.48
 	}		
@@ -80,7 +85,8 @@ objectTypes = {
 		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
 		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
-		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_retreat"	type = "STT_cavalry_horse_lance_moving_animation" }
+		animation = { id = "horse_death"	type = "STT_cavalry_horse_lance_idle_animation" }
 
 		scale = 0.48
 	}	
@@ -92,7 +98,8 @@ objectTypes = {
 		animation = { id = "horse_attack"	type = "STT_cavalry_horse_lance_attack_animation" }
 		animation = { id = "horse_idle"		type = "STT_cavalry_horse_lance_idle_animation" }
 		animation = { id = "horse_walk"		type = "STT_cavalry_horse_lance_moving_animation" }
-		animation = { id = "horse_retreat"	type = "cavalry_horse_moving_animation" }
+		animation = { id = "horse_retreat"	type = "STT_cavalry_horse_lance_moving_animation" }
+		animation = { id = "horse_death"	type = "STT_cavalry_horse_lance_idle_animation" }
 
 		scale = 0.48
 	}	

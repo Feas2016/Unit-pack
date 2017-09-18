@@ -74,6 +74,11 @@ animation = {
 }
 
 animation = {
+	name = "cavalry_rider_retreat_animation"
+	file = "cavalry_rider_retreat.anim"
+}
+
+animation = {
 	name = "cavalry_horse_attack_animation"
 	file = "cavalry_horse_attack.anim"
 }

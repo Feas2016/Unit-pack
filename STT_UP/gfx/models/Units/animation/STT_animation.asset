@@ -26,3 +26,13 @@ animation = {
 	name = "STT_cavalry_rider_lance_moving_animation"
 	file = "STT_cavalry_rider_lance_moving.anim"
 }
+
+animation = {
+	name = "STT_cavalry_rider_lance_retreat_animation"
+	file = "STT_cavalry_rider_lance_retreat.anim"
+}
+
+animation = {
+	name = "STT_cavalry_rider_lance_death_animation"
+	file = "STT_cavalry_rider_lance_death.anim"
+}

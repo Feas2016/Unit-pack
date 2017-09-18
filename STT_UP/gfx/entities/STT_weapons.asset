@@ -65,6 +65,16 @@
 		pdxmesh = "STT_weapon_eastern_infantry_01_shield_mesh"
 	}
 	
+	entity = {
+		name = "STT_weapon_eastern_infantry_02_shield"
+		pdxmesh = "STT_weapon_eastern_infantry_02_shield_mesh"
+	}
+	
+	entity = {
+		name = "STT_weapon_eastern_infantry_02_spear"
+		pdxmesh = "STT_weapon_eastern_infantry_02_spear_mesh"
+	}
+	
 	###########################################################################
 	############												###############
 	############                      Muslim                    ###############
